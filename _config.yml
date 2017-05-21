@@ -1,25 +1,25 @@
 inc:
   # Blog Information
-  title:        "Home Made Chocolates"
-  subtitle:     "It doesn't take an engineer to make a robot"
+  title:        "A & A Chocolates"
+  subtitle:     "Chocolate is the answer, who cares what the question is."
   cover_image:  blog-cover.jpg
   logo:         nr-logo.png
   
   # Company information
-  company:      "Nortbotics"
+  company:      "A & A Chocolates"
   url:          /
   facebook:     false
-  twitter:      nortbotics
+  twitter:      2achocolates
   gplus:        104323171291289633724
   
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
-    shortname:  nortbotics
+    shortname:  2achocolates
   
   # Sharing settings
   sharing:
-    twitter:    nortbotics
+    twitter:    2achocolates
     facebook:   false
     gplus:      104323171291289633724
     hn:         false
@@ -41,7 +41,7 @@ nav:
   projects_link: /projects/
 
 
-url:         http://www.nortbotics.com
+url:         https://www.2achocolates.github.io
 source:      .
 destination: ./_site
 plugins:     ./_plugins
