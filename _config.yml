@@ -56,7 +56,6 @@ show_drafts: false
 limit_posts: 0
 pygments:    true
 
-relative_permalinks: true
 
 permalink:     /blog/:title
 paginate_path: "blog/page:num"
