@@ -20,7 +20,7 @@ layout: base
                         By <address><a rel="author" href="{{ author.link }}" title="{{ author.name }}" target="_blank">{{ author.name }}</a></address>
                     {% endif %}
                 {% endfor %}
-                 &mdash;
+               <!--  &mdash; -->
                 <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}" title="{{ page.date | date: "%B %d, %Y" }}">{{ page.date | date: "%B %d, %Y" }}</time>
             </div>
             <div class="category_labels">{% categorylink page.category %}{{ page.category | upcase }}{% endcategorylink %}</div>
