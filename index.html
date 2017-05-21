@@ -1,0 +1,44 @@
+---
+layout: base
+title: "A And A Chocoloates"
+excerpt: " Home Made Chocolates"
+---
+<div class="blog-cover" style="background-image:url(/images/{{ site.inc.cover_image }});">
+    <section>
+        <div class="container">
+            <h1>{{ site.inc.title }}</h1>
+            {% if site.inc.subtitle %}
+                <h3>{{ site.inc.subtitle }}</h3>
+            {% endif %}
+        </div>
+    </section>
+</div>
+
+<article class="container">
+    <section class="index">
+           <h2>Robot Kits & Resources</h2>
+           <p>
+            Our mission is to bridge the gap in robotics education, and to provide resources and products to makers of the world. We want to make robot kits for young adults. We feel like there are an awful lot of companies focused on kids education, but not many focused on adult education. We want to fill that niche, and help educate/equip the people who have always wanted to work on robots, but are probably not professional engineers (yet..).
+            </p>
+            <p>
+            <b>CREATE</b><br />
+                We create & share open-source robotics projects.
+            </p>
+            <p>
+                <b>SHOP</b><br />
+                We sell robotics kits, parts & accessories.
+            </p>
+            <p>
+                <b>LEARN</b><br />
+                We write up tips & tricks, how-to's, and more on our blog.
+            </p>
+           <br />
+         <h3>
+             >> 
+             <a href="{{ site.nav.about_link }}" style="color: #263c4c;">
+                Learn more about us
+             </a>
+         </h3>
+        <br />
+    </section>
+</article>

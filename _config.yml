@@ -1,0 +1,147 @@
+inc:
+  # Blog Information
+  title:        "Home Made Chocolates"
+  subtitle:     "It doesn't take an engineer to make a robot"
+  cover_image:  blog-cover.jpg
+  logo:         nr-logo.png
+  
+  # Company information
+  company:      "Nortbotics"
+  url:          /
+  facebook:     false
+  twitter:      nortbotics
+  gplus:        104323171291289633724
+  
+  # Comments
+  disqus:
+    # Eg. "exampleblog" Set to false to disable comments
+    shortname:  nortbotics
+  
+  # Sharing settings
+  sharing:
+    twitter:    nortbotics
+    facebook:   false
+    gplus:      104323171291289633724
+    hn:         false
+    
+      
+  # Google Fonts
+  # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
+  google_font: 'Armata:400,700'
+  
+  # Setup your fonts, colors etc at _assets/stylesheets/main.scss
+nav:
+  about_link:   /about/
+  contact_link: /contact/  
+  #store info
+  shop_link: /shop/
+  #blog info
+  blog_link: /blog/
+  # Product Information
+  projects_link: /projects/
+
+
+url:         http://www.nortbotics.com
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+include:     ['.htaccess']
+exclude:     []
+timezone:    nil
+
+# Show future posts
+future:      false
+show_drafts: false
+limit_posts: 0
+pygments:    true
+
+relative_permalinks: true
+
+permalink:     /blog/:title
+paginate_path: "blog/page:num"
+paginate: 10
+
+markdown:      maruku
+markdown_ext:  markdown,mkd,mkdn,md
+textile_ext:   textile
+
+excerpt_separator: "<!-- more -->"
+
+safe:        false
+host:        0.0.0.0
+port:        4001
+baseurl:     /
+lsi:         false
+
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_engine: blahtex
+  png_dir:    images/latex
+  png_url:    /images/latex
+  fenced_code_blocks: true
+
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  use_coderay: false
+
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
+
+redcloth:
+  hard_breaks: true
+
+#
+# jekyll-assets: see more at https://github.com/ixti/jekyll-assets
+#
+assets:
+
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
+    - js
+    - img
+  js_compressor: uglifier
+  css_compressor: sass
+  cachebust: none
+  cache: false
+  gzip: [ text/css, application/javascript ]
+  debug: false
+#
+# Make our collections!
+#
+collections:
+  products:
+    output: true
+    permalink: none
+    paginate_path: "shop/page:num"
+    paginate: 10
+  projects:
+    output: true
+    permalink: /projects/:path/
+    paginate_path: "projects/page:num"
+    paginate: 10
+#
+category_archive:
+  path: /blog/category/
+gems:
+  - jemoji

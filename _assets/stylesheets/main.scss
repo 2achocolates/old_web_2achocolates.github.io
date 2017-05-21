@@ -1,0 +1,24 @@
+/* CONFIGURATION */
+
+/* Bodytext font */
+$font: "Armata", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+/* Font for headings */
+$fontheadings: "Orbitron", "Armata", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+/* Text colors */
+$text: #21272d;
+$textmuted: #848484;
+$accent: #D98218;
+
+
+/* IMPORT CSS FILES */
+@import "bootstrap";
+@import "base";
+@import "nav";
+@import "article";
+@import "icons";
+@import "syntax";
+@import "products";
+@import "responsive";
+@import "lightbox";
