@@ -5,27 +5,13 @@
     
         
         <url>
-            <loc>http://www.nortbotics.com/feed.xml</loc>
+            <loc>https://www.2achocolates.github.io/feed.xml</loc>
         </url>
         
     
         
         <url>
-            <loc>http://www.nortbotics.com/blog/</loc>
-        </url>
-        
-    
-        
-    
-        
-        <url>
-            <loc>http://www.nortbotics.com/projects/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://www.nortbotics.com/</loc>
+            <loc>https://www.2achocolates.github.io/blog/</loc>
         </url>
         
     
@@ -33,107 +19,121 @@
     
         
         <url>
-            <loc>http://www.nortbotics.com/shop/</loc>
+            <loc>https://www.2achocolates.github.io/projects/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://www.nortbotics.com/contact/</loc>
+            <loc>https://www.2achocolates.github.io/</loc>
         </url>
-        
-    
-        
-        <url>
-            <loc>http://www.nortbotics.com/about/</loc>
-        </url>
-        
-    
-        
-    
         
     
         
     
         
         <url>
-            <loc>http://www.nortbotics.com/blog/category/3d-printing/</loc>
+            <loc>https://www.2achocolates.github.io/shop/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://www.nortbotics.com/blog/category/contests/</loc>
+            <loc>https://www.2achocolates.github.io/contact/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://www.nortbotics.com/blog/category/directory/</loc>
+            <loc>https://www.2achocolates.github.io/about/</loc>
+        </url>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <url>
+            <loc>https://www.2achocolates.github.io/blog/category/3d-printing/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://www.nortbotics.com/blog/category/arduino/</loc>
+            <loc>https://www.2achocolates.github.io/blog/category/contests/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://www.nortbotics.com/blog/category/litearm/</loc>
+            <loc>https://www.2achocolates.github.io/blog/category/directory/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://www.2achocolates.github.io/blog/category/arduino/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://www.2achocolates.github.io/blog/category/litearm/</loc>
         </url>
         
     
     
     <url>
-        <loc>http://www.nortbotics.com/shop/arduino-uno-r3/</loc>
+        <loc>https://www.2achocolates.github.io/shop/arduino-uno-r3/</loc>
     </url>
     
     <url>
-        <loc>http://www.nortbotics.com/shop/litearm-i1/</loc>
+        <loc>https://www.2achocolates.github.io/shop/litearm-i1/</loc>
     </url>
     
     <url>
-        <loc>http://www.nortbotics.com/shop/micro-limit-switch/</loc>
+        <loc>https://www.2achocolates.github.io/shop/micro-limit-switch/</loc>
     </url>
     
     <url>
-        <loc>http://www.nortbotics.com/shop/hc-sr04-ultrasonic-distance-sensor/</loc>
-    </url>
-    
-    
-    <url>
-        <loc>http://www.nortbotics.com/projects/litearm/</loc>
+        <loc>https://www.2achocolates.github.io/shop/hc-sr04-ultrasonic-distance-sensor/</loc>
     </url>
     
     
     <url>
-        <loc>http://www.nortbotics.com/blog/adding-a-second-fan-targeting-heat-creep</loc>
+        <loc>https://www.2achocolates.github.io/projects/litearm/</loc>
+    </url>
+    
+    
+    <url>
+        <loc>https://www.2achocolates.github.io/blog/adding-a-second-fan-targeting-heat-creep</loc>
     </url>
     
     <url>
-        <loc>http://www.nortbotics.com/blog/building-a-litearm-i1-robot-arm</loc>
+        <loc>https://www.2achocolates.github.io/blog/building-a-litearm-i1-robot-arm</loc>
     </url>
     
     <url>
-        <loc>http://www.nortbotics.com/blog/basic-2-wheeled-robot-arduino-uno</loc>
+        <loc>https://www.2achocolates.github.io/blog/basic-2-wheeled-robot-arduino-uno</loc>
     </url>
     
     <url>
-        <loc>http://www.nortbotics.com/blog/list-of-open-source-robot-arm-projects</loc>
+        <loc>https://www.2achocolates.github.io/blog/list-of-open-source-robot-arm-projects</loc>
     </url>
     
     <url>
-        <loc>http://www.nortbotics.com/blog/amazon-announces-picking-challenge</loc>
+        <loc>https://www.2achocolates.github.io/blog/amazon-announces-picking-challenge</loc>
     </url>
     
     <url>
-        <loc>http://www.nortbotics.com/blog/5-tips-for-unclogging-pla-extruder-jams</loc>
+        <loc>https://www.2achocolates.github.io/blog/5-tips-for-unclogging-pla-extruder-jams</loc>
     </url>
     
     <url>
-        <loc>http://www.nortbotics.com/blog/common-problems-3d-printing-with-pla</loc>
+        <loc>https://www.2achocolates.github.io/blog/common-problems-3d-printing-with-pla</loc>
     </url>
     
 </urlset>

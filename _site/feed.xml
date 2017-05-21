@@ -2,53 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://www.nortbotics.com</link>
-    <atom:link href="http://www.nortbotics.com/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.2achocolates.github.io</link>
+    <atom:link href="https://www.2achocolates.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Sun, 21 May 2017 17:12:25 +0000</pubDate>
-    <lastBuildDate>Sun, 21 May 2017 17:12:25 +0000</lastBuildDate>
+    <pubDate>Sun, 21 May 2017 23:19:40 +0000</pubDate>
+    <lastBuildDate>Sun, 21 May 2017 23:19:40 +0000</lastBuildDate>
 
     
     
     <item>
       <title>Adding A Second Fan Targeting Heat Creep</title>
-      <link>http://www.nortbotics.com/blog/adding-a-second-fan-targeting-heat-creep</link>
+      <link>https://www.2achocolates.github.io/blog/adding-a-second-fan-targeting-heat-creep</link>
       <pubDate>Sun, 26 Oct 2014 00:00:00 +0000</pubDate>
       <author>Joe Norton</author>
-      <guid>http://www.nortbotics.com/blog/adding-a-second-fan-targeting-heat-creep</guid>
-      <description>&lt;p&gt;There are a couple ways to integrate a 2nd fan into your 3D printing system. This is how I did it.&lt;/p&gt;
+      <guid>https://www.2achocolates.github.io/blog/adding-a-second-fan-targeting-heat-creep</guid>
+      <description>&lt;p&gt;There are a couple ways to integrate a 2nd fan into your 3D printing system. This is how I did it.     &lt;/p&gt;
 
 &lt;p&gt;First, you need to get a second fan; you can get them from many places online. Just be sensitive to the voltage needs of your fan. I went with a 24V, because I wanted to move some serious air – but that also means you need to supply that much more power.&lt;/p&gt;
 
 &lt;p&gt;Now, it’s time to figure out how to power it and make it run. You always could plug this into your main power supply for the 3d printer; the TAZ4 comes with space for these kinds of additions. Personally, I decided to NOT plug it into my 3D printer controller for power, and instead I choose to run that fan on it’s own separate power supply.&lt;/p&gt;
 
-&lt;p&gt;I had a 19V power adapter laying around so I used that instead. It does not allow the fan to go it’s fastest possible speed; it is perhaps around 80% of it’s potential speed. This has worked good so far - especially since I keep it running alot, it feels like it makes sense for it not to be hauling ass all the time but to run at a slightly less than full capacity speed. Note: I first tested a 12V adapter, and the fan was not moving fast enough to be useful. It didn’t pass the ‘tissue test’, so I upgraded it to the 19V supply and that did much better with the ‘tissue test’. (Tissue test: if you put a tissue in front of the fan while running full blast, does it actually move the tissue around?)&lt;/p&gt;
+&lt;p&gt;I had a 19V power adapter laying around so I used that instead. It does not allow the fan to go it’s fastest possible speed; it is perhaps around 80% of it’s potential speed. This has worked good so far - especially since I keep it running alot, it feels like it makes sense for it not to be hauling ass all the time but to run at a slightly less than full capacity speed. Note: I first tested a 12V adapter, and the fan was not moving fast enough to be useful. It didn’t pass the ‘tissue test’, so I upgraded it to the 19V supply and that did much better with the ‘tissue test’. (Tissue test: if you put a tissue in front of the fan while running full blast, does it actually move the tissue around?)  &lt;/p&gt;
 
-&lt;p&gt;I like this particular setup because I can keep that fan running at it’s top speed (based on our power supply) for the entire print very easily. I don’t need to make any changes to my 3d printer settings, or to my print settings, in order to add in extra gcode into my prints to make that fan run. It just runs when I have it plugged it.&lt;/p&gt;
+&lt;p&gt;I like this particular setup because I can keep that fan running at it’s top speed (based on our power supply) for the entire print very easily. I don’t need to make any changes to my 3d printer settings, or to my print settings, in order to add in extra gcode into my prints to make that fan run. It just runs when I have it plugged it.  &lt;/p&gt;
 
-&lt;p&gt;Next, we need a new fan mount for this ‘heat creep fan’. Due to the positioning of the budaschnozzle, the leftside of the extruder has less space than the right does wrt the fan so you will need a fan mount that takes this into account.&lt;/p&gt;
+&lt;p&gt;Next, we need a new fan mount for this ‘heat creep fan’. Due to the positioning of the budaschnozzle, the leftside of the extruder has less space than the right does wrt the fan so you will need a fan mount that takes this into account.  &lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#39;http://www.thingiverse.com/thing:368303&#39; target=&#39;_blank&#39;&gt;&lt;img src=&#39;/images/heat-creep-fan-mount.png&#39; style=&#39;float:right;&#39; /&gt;&lt;/a&gt;I looked at a bunch on thingiverse, printed a few, and finally settled on this one: &lt;a href=&#39;http://www.thingiverse.com/thing:368303&#39; target=&#39;_blank&#39;&gt;Fan shroud for Lulzbot TAZ 4 hotend&lt;/a&gt; (Seen on right)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.thingiverse.com/thing:368303&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/heat-creep-fan-mount.png&quot; style=&quot;float:right;&quot; /&gt;&lt;/a&gt;I looked at a bunch on thingiverse, printed a few, and finally settled on this one: &lt;a href=&quot;http://www.thingiverse.com/thing:368303&quot; target=&quot;_blank&quot;&gt;Fan shroud for Lulzbot TAZ 4 hotend&lt;/a&gt;  (Seen on right)&lt;/p&gt;
 
-&lt;p&gt;It prints easily, self-taps, and best of all - is a good design for the task.&lt;/p&gt;
+&lt;p&gt;It prints easily, self-taps, and best of all - is a good design for the task.   &lt;/p&gt;
 
-&lt;p&gt;Since I added my 2nd fan I have not had any extruder jams. I will admit, on occasion I hear grinding – but so far so good on the jams. The grinding always stops and works itself out without any kind of issue or intervention on my part – and most importantly, I am not seeing the finish issues I had with the heat creep going on. I used to see lots of streaking, and patchiness in my print finishes, but that is gone for the moment.&lt;/p&gt;
+&lt;p&gt;Since I added my 2nd fan I have not had any extruder jams. I will admit, on occasion I hear grinding – but so far so good on the jams. The grinding always stops and works itself out without any kind of issue or intervention on my part – and most importantly, I am not seeing the finish issues I had with the heat creep going on. I used to see lots of streaking, and patchiness in my print finishes, but that is gone for the moment.  &lt;/p&gt;
 
-&lt;p&gt;So far, that’s my best advice for preventing heat creep - get a 2nd fan!&lt;/p&gt;</description>
+&lt;p&gt;So far, that’s my best advice for preventing heat creep - get a 2nd fan!&lt;/p&gt;
+</description>
     </item>
     
     
     
     <item>
       <title>Building the LiteArm i1 Robot Arm</title>
-      <link>http://www.nortbotics.com/blog/building-a-litearm-i1-robot-arm</link>
+      <link>https://www.2achocolates.github.io/blog/building-a-litearm-i1-robot-arm</link>
       <pubDate>Sat, 18 Oct 2014 00:00:00 +0000</pubDate>
       <author>Joe Norton</author>
-      <guid>http://www.nortbotics.com/blog/building-a-litearm-i1-robot-arm</guid>
+      <guid>https://www.2achocolates.github.io/blog/building-a-litearm-i1-robot-arm</guid>
       <description>&lt;p&gt;I just recently finished putting together my LiteArm i1 robot arm, so I wanted to go ahead and write a little bit about my experience building it, because there may be some things that others take away from it. The construction was most definitely successful, but that doesn&#39;t mean there weren&#39;t some useful lessons learned.&lt;/p&gt;
 
-&lt;p&gt;If you are not familiar with the LiteArm then you should start with &lt;a href=&quot;http://www.nortbotics.com/projects/litearm&quot; target=&quot;_blank&quot;&gt;this project page&lt;/a&gt;. Essentially, the LiteArm is an open-source, desktop sized robotic arm that you can make on your own at home (if you have the tools, determination, and the patience &lt;img class=&#39;emoji&#39; title=&#39;:smile:&#39; alt=&#39;:smile:&#39; src=&#39;https://assets.github.com/images/icons/emoji/unicode/1f604.png&#39; height=&#39;20&#39; width=&#39;20&#39; align=&#39;absmiddle&#39; /&gt; )&lt;/p&gt;
+&lt;p&gt;If you are not familiar with the LiteArm then you should start with &lt;a href=&quot;https://www.2achocolates.github.io/projects/litearm&quot; target=&quot;_blank&quot;&gt;this project page&lt;/a&gt;. Essentially, the LiteArm is an open-source, desktop sized robotic arm that you can make on your own at home (if you have the tools, determination, and the patience &lt;img class=&#39;emoji&#39; title=&#39;:smile:&#39; alt=&#39;:smile:&#39; src=&#39;https://assets.github.com/images/icons/emoji/unicode/1f604.png&#39; height=&#39;20&#39; width=&#39;20&#39; align=&#39;absmiddle&#39; /&gt; )&lt;/p&gt;
 
 &lt;p&gt;So, back to the pont of this post. Below is my experience printing and constructing the LiteArm i1 robot arm.&lt;/p&gt;
 
@@ -99,129 +100,118 @@ Here is the &lt;a href=&quot;https://www.flickr.com/photos/126939770@N02/sets/72
     
     <item>
       <title>Make Your Own Basic 2-Wheeled Robot</title>
-      <link>http://www.nortbotics.com/blog/basic-2-wheeled-robot-arduino-uno</link>
+      <link>https://www.2achocolates.github.io/blog/basic-2-wheeled-robot-arduino-uno</link>
       <pubDate>Mon, 13 Oct 2014 00:00:00 +0000</pubDate>
       <author>Joe Norton</author>
-      <guid>http://www.nortbotics.com/blog/basic-2-wheeled-robot-arduino-uno</guid>
+      <guid>https://www.2achocolates.github.io/blog/basic-2-wheeled-robot-arduino-uno</guid>
       <description>&lt;p&gt;In this project I am creating a mobile robot platform that can be used as a test platform for later mobile robotics projects of mine. I just want a basic, simple, mobile robot. The brains of this little robot will be the Arduino UNO, and the bot will be driven by 2 continuous rotation servos (since I have them on hand, and there’s no need to go the DC motor route).&lt;/p&gt;
 
 &lt;h3 id=&quot;parts&quot;&gt;Parts:&lt;/h3&gt;
-
 &lt;ul&gt;
-&lt;li&gt;Arduino Uno&lt;/li&gt;
-
-&lt;li&gt;Sensor Shield&lt;/li&gt;
-
-&lt;li&gt;2 Continuous Rotation Servos (Parallax)&lt;/li&gt;
-
-&lt;li&gt;2 Wheels (Parallax)&lt;/li&gt;
-
-&lt;li&gt;9 volt battery&lt;/li&gt;
-
-&lt;li&gt;3D Printed ‘Mini-Mo’ Small Mobile Robot body&lt;/li&gt;
+  &lt;li&gt;Arduino Uno&lt;/li&gt;
+  &lt;li&gt;Sensor Shield  &lt;/li&gt;
+  &lt;li&gt;2 Continuous Rotation Servos (Parallax)&lt;/li&gt;
+  &lt;li&gt;2 Wheels (Parallax)&lt;/li&gt;
+  &lt;li&gt;9 volt battery&lt;/li&gt;
+  &lt;li&gt;3D Printed ‘Mini-Mo’ Small Mobile Robot body&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;This is an extremely simple project. The tricky part is sourcing an adequate ‘robot body’. You can make your own at home, out of cardboard, or other common materials. I have done that, and it’s okay as well.&lt;/p&gt;
 
-&lt;p&gt;I decided to 3D print my robot body here for this project. I found a nice ‘small mobile robot’ model on Thingiverse and made that. Side-note: I am working on a modified version, with advanced functionality and additional parts (codenamed ‘Mini-Mo’).&lt;/p&gt;
+&lt;p&gt;I decided to 3D print my robot body here for this project. I found a nice ‘small mobile robot’ model on Thingiverse and made that. Side-note: I am working on a modified version, with advanced functionality and additional parts (codenamed ‘Mini-Mo’).  &lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#39;http://www.thingiverse.com/thing:207522&#39;&gt;Here is the 3D model on Thingiverse&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.thingiverse.com/thing:207522&quot;&gt;Here is the 3D model on Thingiverse&lt;/a&gt;  &lt;/p&gt;
 
-&lt;p&gt;Here is how my 3D printed body came out. Not perfect, but it will do. &lt;br /&gt;&lt;img src=&#39;/images/small-mobile-robot-body.jpg&#39; /&gt;&lt;/p&gt;
+&lt;p&gt;Here is how my 3D printed body came out. Not perfect, but it will do.  &lt;br /&gt;
+&lt;img src=&quot;/images/small-mobile-robot-body.jpg&quot; /&gt;  &lt;/p&gt;
 
-&lt;h2 id=&quot;put_it_together&quot;&gt;Put it together&lt;/h2&gt;
-
-&lt;p&gt;This part really depends on your robot body. Essentially, here are the steps taking place:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Attach the 2 servos to the robot body.&lt;/li&gt;
-
-&lt;li&gt;Attach the Arduino Uno to the robot body.&lt;/li&gt;
-
-&lt;li&gt;Slap on that sensor shield to the top of the Arduino.&lt;/li&gt;
-
-&lt;li&gt;Plug in servos - into pins 9 and 10 - on the sensor shield.&lt;/li&gt;
-
-&lt;li&gt;Marvel at your cute little robot.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h2 id=&quot;put-it-together&quot;&gt;Put it together&lt;/h2&gt;
+&lt;p&gt;This part really depends on your robot body. Essentially, here are the steps taking place:
+1. Attach the 2 servos to the robot body.
+2. Attach the Arduino Uno to the robot body.
+3. Slap on that sensor shield to the top of the Arduino.
+4. Plug in servos - into pins 9 and 10 - on the sensor shield.
+5. Marvel at your cute little robot.&lt;/p&gt;
 
 &lt;p&gt;The last step here is actually plugging in the power. To do this, just plug the black wire coming off the battery into one of the GRND pins on the Sensor Shield, and put the red wire into the VIN pin on the sensor shield. This will turn ON the robot, so you will maybe want to work a switch in there to make it easier for you - but I’m leaving it out here for simplicity.&lt;/p&gt;
 
-&lt;h2 id=&quot;upload_some_code&quot;&gt;Upload some code&lt;/h2&gt;
+&lt;h2 id=&quot;upload-some-code&quot;&gt;Upload some code&lt;/h2&gt;
 
-&lt;p&gt;Here is some xample code for running simple differential drive on the arduino. All we are doing is declaring 2 servos, attached to pins 9 &amp;amp; 10, and then sending them difference coordinated sets of pulses depend on which way we want the wheels to turn.&lt;/p&gt;
-&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;language-c&#39; data-lang=&#39;c&#39;&gt;&lt;span class=&#39;cm&#39;&gt;/*&lt;/span&gt;
-&lt;span class=&#39;cm&#39;&gt;Simple Differential Drive Example&lt;/span&gt;
-&lt;span class=&#39;cm&#39;&gt;Created October 2014 by Joe Norton of NORTBOTICS&lt;/span&gt;
-&lt;span class=&#39;cm&#39;&gt;LICENSE: CC-BY-SA 4.0&lt;/span&gt;
-&lt;span class=&#39;cm&#39;&gt; */&lt;/span&gt;
+&lt;p&gt;Here is some xample code for running simple differential drive on the arduino. All we are doing is declaring 2 servos, attached to pins 9 &amp;amp; 10, and then sending them difference coordinated sets of pulses depend on which way we want the wheels to turn.  &lt;/p&gt;
 
-&lt;span class=&#39;c1&#39;&gt;// include the servo library&lt;/span&gt;
-&lt;span class=&#39;cp&#39;&gt;#include &amp;lt;Servo.h&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;/*
+Simple Differential Drive Example
+Created October 2014 by Joe Norton of NORTBOTICS
+LICENSE: CC-BY-SA 4.0
+ */
 
-&lt;span class=&#39;n&#39;&gt;Servo&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;servoLeft&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;;&lt;/span&gt;  &lt;span class=&#39;c1&#39;&gt;// create a servo object for lefty&lt;/span&gt;
-&lt;span class=&#39;n&#39;&gt;Servo&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;servoRight&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;;&lt;/span&gt;  &lt;span class=&#39;c1&#39;&gt;// create a servo object for righty&lt;/span&gt;
+// include the servo library
+#include &amp;lt;Servo.h&amp;gt;
 
-&lt;span class=&#39;kt&#39;&gt;void&lt;/span&gt; &lt;span class=&#39;nf&#39;&gt;setup&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;servoLeft&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;attach&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;9&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt; &lt;span class=&#39;c1&#39;&gt;// attaches the servo on pin 9 to the servo object &lt;/span&gt;
-   &lt;span class=&#39;n&#39;&gt;servoRight&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;attach&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;10&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt; &lt;span class=&#39;c1&#39;&gt;// attaches the servo on pin 10 to the servo object &lt;/span&gt;
-&lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;
+Servo servoLeft;  // create a servo object for lefty
+Servo servoRight;  // create a servo object for righty
 
-&lt;span class=&#39;kt&#39;&gt;void&lt;/span&gt; &lt;span class=&#39;nf&#39;&gt;loop&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;            &lt;span class=&#39;c1&#39;&gt;// Loop through motion tests&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;forward&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;();&lt;/span&gt;             &lt;span class=&#39;c1&#39;&gt;// Example: move forward&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;delay&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;2000&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;           &lt;span class=&#39;c1&#39;&gt;// Wait 2000 milliseconds (2 seconds)&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;reverse&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;();&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;delay&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;2000&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;turnRight&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;();&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;delay&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;2000&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;turnLeft&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;();&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;delay&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;2000&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;stopRobot&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;();&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;delay&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;2000&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
-&lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;
+void setup() {
+  servoLeft.attach(9); // attaches the servo on pin 9 to the servo object 
+   servoRight.attach(10); // attaches the servo on pin 10 to the servo object 
+}
 
-&lt;span class=&#39;c1&#39;&gt;// Motion routines for forward, reverse, turns, and stop&lt;/span&gt;
-&lt;span class=&#39;kt&#39;&gt;void&lt;/span&gt; &lt;span class=&#39;nf&#39;&gt;forward&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;servoLeft&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;write&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;0&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;servoRight&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;write&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;180&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
-&lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;
+void loop() {            // Loop through motion tests
+  forward();             // Example: move forward
+  delay(2000);           // Wait 2000 milliseconds (2 seconds)
+  reverse();
+  delay(2000);
+  turnRight();
+  delay(2000);
+  turnLeft();
+  delay(2000);
+  stopRobot();
+  delay(2000);
+}
 
-&lt;span class=&#39;kt&#39;&gt;void&lt;/span&gt; &lt;span class=&#39;nf&#39;&gt;reverse&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;servoLeft&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;write&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;180&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;servoRight&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;write&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;0&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
-&lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;
+// Motion routines for forward, reverse, turns, and stop
+void forward() {
+  servoLeft.write(0);
+  servoRight.write(180);
+}
 
-&lt;span class=&#39;kt&#39;&gt;void&lt;/span&gt; &lt;span class=&#39;nf&#39;&gt;turnRight&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;servoLeft&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;write&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;180&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;servoRight&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;write&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;180&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
-&lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;
-&lt;span class=&#39;kt&#39;&gt;void&lt;/span&gt; &lt;span class=&#39;nf&#39;&gt;turnLeft&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;servoLeft&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;write&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;0&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;servoRight&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;write&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;0&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
-&lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;
+void reverse() {
+  servoLeft.write(180);
+  servoRight.write(0);
+}
 
-&lt;span class=&#39;kt&#39;&gt;void&lt;/span&gt; &lt;span class=&#39;nf&#39;&gt;stopRobot&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;{&lt;/span&gt; &lt;span class=&#39;c1&#39;&gt;//if your servos keep rolling, it means they need&lt;/span&gt;
-				&lt;span class=&#39;c1&#39;&gt;// to be aligned&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;servoLeft&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;write&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;90&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;servoRight&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;write&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;90&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;);&lt;/span&gt;
-&lt;span class=&#39;p&#39;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Note: If during the ‘stop’ phase of the program your servos continue rolling then that means you need to re-align the servos. On the bottom of hobby servos there is a little exposed phillips head recessed nob. You can turn this to fine-tune the servo. You want to turn the screw just enough that it STOPS during the time you at running the above ‘stopRobot()’.&lt;/p&gt;
+void turnRight() {
+  servoLeft.write(180);
+  servoRight.write(180);
+}
+void turnLeft() {
+  servoLeft.write(0);
+  servoRight.write(0);
+}
 
-&lt;h2 id=&quot;final_result&quot;&gt;Final Result&lt;/h2&gt;
+void stopRobot() { //if your servos keep rolling, it means they need
+				// to be aligned
+  servoLeft.write(90);
+  servoRight.write(90);
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://www.flickr.com/photos/126939770@N02/15345546159&#39; title=&#39;mobile-bot by Joe Norton, on Flickr&#39;&gt;&lt;img alt=&#39;mobile-bot&#39; height=&#39;240&#39; src=&#39;https://farm6.staticflickr.com/5609/15345546159_5a2f808899_n.jpg&#39; width=&#39;320&#39; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Note:
+If during the ‘stop’ phase of the program your servos continue rolling then that means you need to re-align the servos. On the bottom of hobby servos there is a little exposed phillips head recessed nob. You can turn this to fine-tune the servo. You want to turn the screw just enough that it STOPS during the time you at running the above ‘stopRobot()’.&lt;/p&gt;
 
-&lt;p&gt;All said and done, here is how the small mobile robot turned out. It’s really not much of robot – pretty much as dumb as a robot can get – this is because it doesn’t actually do any “sensing” of the environment. Now that we have a simple example of differential drive, we can start to incorporate sensory data to do obstacle avoidance and more in later projects.&lt;/p&gt;</description>
+&lt;h2 id=&quot;final-result&quot;&gt;Final Result&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.flickr.com/photos/126939770@N02/15345546159&quot; title=&quot;mobile-bot by Joe Norton, on Flickr&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5609/15345546159_5a2f808899_n.jpg&quot; width=&quot;320&quot; height=&quot;240&quot; alt=&quot;mobile-bot&quot; /&gt;&lt;/a&gt; 
+All said and done, here is how the small mobile robot turned out. It’s really not much of robot – pretty much as dumb as a robot can get – this is because it doesn’t actually do any “sensing” of the environment. Now that we have a simple example of differential drive, we can start to incorporate sensory data to do obstacle avoidance and more in later projects.&lt;/p&gt;
+</description>
     </item>
     
     
     
     <item>
       <title>List of Open-Source Robot Arm Projects</title>
-      <link>http://www.nortbotics.com/blog/list-of-open-source-robot-arm-projects</link>
+      <link>https://www.2achocolates.github.io/blog/list-of-open-source-robot-arm-projects</link>
       <pubDate>Mon, 06 Oct 2014 00:00:00 +0000</pubDate>
       <author>Joe Norton</author>
-      <guid>http://www.nortbotics.com/blog/list-of-open-source-robot-arm-projects</guid>
+      <guid>https://www.2achocolates.github.io/blog/list-of-open-source-robot-arm-projects</guid>
       <description>I wanted to put together a list of existing active robot arm projects so that they were easier to find and take advantage of... There&#39;s no reason for everybody for reinvent the wheel over and over again.
 
 &lt;h2&gt;Active open-source robotic arm projects, in size order&lt;/h2&gt;
@@ -297,143 +287,137 @@ Here is the &lt;a href=&quot;https://www.flickr.com/photos/126939770@N02/sets/72
     
     <item>
       <title>Amazon announces 'Picking challenge'</title>
-      <link>http://www.nortbotics.com/blog/amazon-announces-picking-challenge</link>
+      <link>https://www.2achocolates.github.io/blog/amazon-announces-picking-challenge</link>
       <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
       <author>Joe Norton</author>
-      <guid>http://www.nortbotics.com/blog/amazon-announces-picking-challenge</guid>
+      <guid>https://www.2achocolates.github.io/blog/amazon-announces-picking-challenge</guid>
       <description>&lt;p&gt;Amazon is looking for a robot that can replace ‘pickers’ in their warehouses. With their slick warehouse robots created by Kiva Systems (bought by Amazon in 2009 for $775 Million), the bottleneck in their shipping and processing system appears to be the humans in the picking department. To get the ball rolling on the ‘basic research’ that needs to be done in the area, they have started a contest&lt;/p&gt;
 
-&lt;h2 id=&quot;can_you_create_an_autonomous_picking_robot&quot;&gt;Can you create an autonomous picking robot?&lt;/h2&gt;
+&lt;h2 id=&quot;can-you-create-an-autonomous-picking-robot&quot;&gt;Can you create an autonomous picking robot?&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Here are the details of the contest:&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;This competition will challenge entrants to build their own robot hardware and software that can attempt simplified versions of the general task of picking items from shelves. The robots will be presented with a stationary lightly populated inventory shelf and be asked to pick a subset of the products and put them on a table. The challenge combines object recognition, pose recognition, grasp planning, compliant manipulation, motion planning, task planning, task execution, and error detection and recovery. The robots will be scored by how many items are picked in a fixed amount of time, with $26,000 in prizes being awarded. Participants will be encouraged to share and disseminate their approach to improve future challenge results and industrial implementations.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Here are the details of the contest:&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;This competition will challenge entrants to build their own robot hardware and software that can attempt simplified versions of the general task of picking items from shelves. The robots will be presented with a stationary lightly populated inventory shelf and be asked to pick a subset of the products and put them on a table. The challenge combines object recognition, pose recognition, grasp planning, compliant manipulation, motion planning, task planning, task execution, and error detection and recovery. The robots will be scored by how many items are picked in a fixed amount of time, with $26,000 in prizes being awarded. Participants will be encouraged to share and disseminate their approach to improve future challenge results and industrial implementations.&lt;/em&gt;  &lt;/p&gt;
 
-&lt;p&gt;Learn more at the &lt;a href=&quot;http://amazonpickingchallenge.org/&quot;&gt;Amazon Picking Challenge page&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;Learn more at the &lt;a href=&quot;http://amazonpickingchallenge.org/&quot;&gt;Amazon Picking Challenge page&lt;/a&gt;  &lt;/p&gt;
+</description>
     </item>
     
     
     
     <item>
       <title>5 Tips for Unclogging PLA Extruder Jams</title>
-      <link>http://www.nortbotics.com/blog/5-tips-for-unclogging-pla-extruder-jams</link>
+      <link>https://www.2achocolates.github.io/blog/5-tips-for-unclogging-pla-extruder-jams</link>
       <pubDate>Mon, 29 Sep 2014 00:00:00 +0000</pubDate>
       <author>Joe Norton</author>
-      <guid>http://www.nortbotics.com/blog/5-tips-for-unclogging-pla-extruder-jams</guid>
+      <guid>https://www.2achocolates.github.io/blog/5-tips-for-unclogging-pla-extruder-jams</guid>
       <description>&lt;p&gt;If you’ve printed with PLA, my guess is you have also dealt with heat creep and the extruder jams that come with it. If you are not familiar with the phrase ‘heat creep’ then you may want to read this post first - &lt;a href=&quot;/blog/common-problems-3d-printing-with-pla&quot;&gt;common problems printing with PLA&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Here are my tips and tricks for unclogging your PLA Extruder jams.&lt;/p&gt;
 
-&lt;h2 id=&quot;1_if_you_catch_the_clog_when_it_first_happens_you_can_prevent_the_really_bad_jams&quot;&gt;1. If you catch the clog when it first happens, you can prevent the really bad jams.&lt;/h2&gt;
+&lt;h2 id=&quot;if-you-catch-the-clog-when-it-first-happens-you-can-prevent-the-really-bad-jams&quot;&gt;1. If you catch the clog when it first happens, you can prevent the really bad jams.&lt;/h2&gt;
+&lt;p&gt;If you hear a clicking coming from the tool head, followed by a grinding sound from the hobbed bolt area, then you can be pretty sure you’ve got a jam. If you pull out the filament while the extruder is still hot, and jam is new, then it won’t have had time to warp so much. In my experience, if you can yank out a jam right when it happens then you can clean up the hobbed bolt and be back to printing in minutes. Saving you potentially hours of frustrating extruder tinkering.  &lt;/p&gt;
 
-&lt;p&gt;If you hear a clicking coming from the tool head, followed by a grinding sound from the hobbed bolt area, then you can be pretty sure you’ve got a jam. If you pull out the filament while the extruder is still hot, and jam is new, then it won’t have had time to warp so much. In my experience, if you can yank out a jam right when it happens then you can clean up the hobbed bolt and be back to printing in minutes. Saving you potentially hours of frustrating extruder tinkering.&lt;/p&gt;
+&lt;h2 id=&quot;if-you-didnt-catch-it-right-away-remember-to-bring-the-extruder-up-to-temperature-before-trying-to-pull-the-filament&quot;&gt;2. If you didn’t catch it right away, remember to bring the extruder up to temperature before trying to pull the filament&lt;/h2&gt;
+&lt;p&gt;Pulling too hard when it isn’t hot could lead to breaking something. Either that, or it just won’t go anywhere.  &lt;/p&gt;
 
-&lt;h2 id=&quot;2_if_you_didnt_catch_it_right_away_remember_to_bring_the_extruder_up_to_temperature_before_trying_to_pull_the_filament&quot;&gt;2. If you didn’t catch it right away, remember to bring the extruder up to temperature before trying to pull the filament&lt;/h2&gt;
-
-&lt;p&gt;Pulling too hard when it isn’t hot could lead to breaking something. Either that, or it just won’t go anywhere.&lt;/p&gt;
-
-&lt;h2 id=&quot;3_make_sure_to_clean_out_the_hobbed_bolt&quot;&gt;3. Make sure to clean out the hobbed bolt.&lt;/h2&gt;
-
+&lt;h2 id=&quot;make-sure-to-clean-out-the-hobbed-bolt&quot;&gt;3. Make sure to clean out the hobbed bolt.&lt;/h2&gt;
 &lt;p&gt;It will likely be filled with filament, and will require careful picking to be cleaned out. Try note to damage the threads of the bolt while doing so. In my experience, you will need to use a stainless steel pick (like the dental kind) to really get the gunk out of there. If you don’t clean it, then you will notice right away the filament isn’t getting ‘pushed’ down the extruder as well.&lt;/p&gt;
 
-&lt;p&gt;Here is what it looks like when the hobbed bolt get’s full of filament (Here the filament was black, but it kind of looks greyish when gunked up in the threads of the bolt)&lt;br /&gt;&lt;a href=&#39;https://www.flickr.com/photos/126939770@N02/15096413028&#39; title=&#39;hobbed-bolt-full-of-filament by Joe Norton, on Flickr&#39;&gt;&lt;img alt=&#39;hobbed-bolt-full-of-filament&#39; height=&#39;180&#39; src=&#39;https://farm6.staticflickr.com/5583/15096413028_7ed4318c78_m.jpg&#39; width=&#39;240&#39; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here is what it looks like when the hobbed bolt get’s full of filament (Here the filament was black, but it kind of looks greyish when gunked up in the threads of the bolt)&lt;br /&gt;&lt;a href=&quot;https://www.flickr.com/photos/126939770@N02/15096413028&quot; title=&quot;hobbed-bolt-full-of-filament by Joe Norton, on Flickr&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5583/15096413028_7ed4318c78_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;hobbed-bolt-full-of-filament&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Then after some cleaning (it still needs a bit more though)&lt;br /&gt;&lt;a href=&#39;https://www.flickr.com/photos/126939770@N02/15096271410&#39; title=&#39;cleaned-hobbed-bolt by Joe Norton, on Flickr&#39;&gt;&lt;img alt=&#39;cleaned-hobbed-bolt&#39; height=&#39;180&#39; src=&#39;https://farm4.staticflickr.com/3918/15096271410_954e4c4955_m.jpg&#39; width=&#39;240&#39; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Then after some cleaning (it still needs a bit more though)&lt;br /&gt;&lt;a href=&quot;https://www.flickr.com/photos/126939770@N02/15096271410&quot; title=&quot;cleaned-hobbed-bolt by Joe Norton, on Flickr&quot;&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3918/15096271410_954e4c4955_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;cleaned-hobbed-bolt&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;4_as_bad_as_it_gets_resist_the_urge_to_drill&quot;&gt;4. As bad as it gets, resist the urge to drill.&lt;/h2&gt;
+&lt;h2 id=&quot;as-bad-as-it-gets-resist-the-urge-to-drill&quot;&gt;4. As bad as it gets, resist the urge to drill.&lt;/h2&gt;
+&lt;p&gt;I fell for this. The heat creep had gotten so bad in my case that the filament coming out of the cold end was swollen and warped. It couldn’t be pulled out. I eventually had to drill it out. Although I did an okay job driling it, the real problem with doing this - in the long run - is the &lt;em&gt;contamination risk&lt;/em&gt;. &lt;/p&gt;
 
-&lt;p&gt;I fell for this. The heat creep had gotten so bad in my case that the filament coming out of the cold end was swollen and warped. It couldn’t be pulled out. I eventually had to drill it out. Although I did an okay job driling it, the real problem with doing this - in the long run - is the &lt;em&gt;contamination risk&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;I didn’t realize at the time, but what happens when you drill into the extruder assembly, is that you are bound to accidentally nick up some of the structure around the filament you are drilling, and those fragments will end up in the liquid filament pool being pushed out your nozzle. The issue is that the ‘structure’ getting fragmented into your filament is likely aluminum (from the cold end) or PFTE tube (the white tube connecting the ceramic melting chamber, heat sinks, and cold end).&lt;/p&gt;
+&lt;p&gt;I didn’t realize at the time, but what happens when you drill into the extruder assembly, is that you are bound to accidentally nick up some of the structure around the filament you are drilling, and those fragments will end up in the liquid filament pool being pushed out your nozzle. The issue is that the ‘structure’ getting fragmented into your filament is likely aluminum (from the cold end) or PFTE tube (the white tube connecting the ceramic melting chamber, heat sinks, and cold end). &lt;/p&gt;
 
 &lt;p&gt;The problem with those materials are probably obvious to you - they don’t melt like PLA or ABS does! &lt;strong&gt;PFTE can take ~400 degrees to melt!&lt;/strong&gt; So trust me, while in practice it might be the fastest way to unclog your rig - resist the urge to drill, the contamination risk is just too high. Trust me!&lt;/p&gt;
 
-&lt;h2 id=&quot;5_dont_go_it_alone_if_you_bought_your_3d_printer_and_didnt_make_it_then_you_have_somebody_to_reach_out_to_for_support&quot;&gt;5. Don’t go it alone. If you bought your 3D Printer, and didn’t make it, then you have somebody to reach out to for support&lt;/h2&gt;
-
-&lt;p&gt;In my case, my extruder problems got so bad that I couldn’t get a single print going. I was stuck. This is when I reached out to the manufacturer of my 3D Printer, and very quickly they worked with me to get replacements and returns done for the nescessary parts (Thanks &lt;a href=&#39;https://www.lulzbot.com/&#39; target=&#39;_blank&#39;&gt;Lulzbot&lt;/a&gt;!).&lt;/p&gt;
+&lt;h2 id=&quot;dont-go-it-alone-if-you-bought-your-3d-printer-and-didnt-make-it-then-you-have-somebody-to-reach-out-to-for-support&quot;&gt;5. Don’t go it alone. If you bought your 3D Printer, and didn’t make it, then you have somebody to reach out to for support&lt;/h2&gt;
+&lt;p&gt;In my case, my extruder problems got so bad that I couldn’t get a single print going. I was stuck. This is when I reached out to the manufacturer of my 3D Printer, and very quickly they worked with me to get replacements and returns done for the nescessary parts (Thanks &lt;a href=&quot;https://www.lulzbot.com/&quot; target=&quot;_blank&quot;&gt;Lulzbot&lt;/a&gt;!).  &lt;/p&gt;
 
 &lt;p&gt;Remember, part of the reason you buy a 3D printer instead of building your own is because you want somebody available to help you troubleshoot your very expensive toy when it breaks down.&lt;/p&gt;
 
-&lt;p&gt;That’s all I’ve got! Let me know your extruder unclogging tips in the comments!&lt;/p&gt;</description>
+&lt;p&gt;That’s all I’ve got! Let me know your extruder unclogging tips in the comments!&lt;/p&gt;
+</description>
     </item>
     
     
     
     <item>
       <title>Common problems 3D printing with PLA</title>
-      <link>http://www.nortbotics.com/blog/common-problems-3d-printing-with-pla</link>
+      <link>https://www.2achocolates.github.io/blog/common-problems-3d-printing-with-pla</link>
       <pubDate>Fri, 12 Sep 2014 00:00:00 +0000</pubDate>
       <author>Joe Norton</author>
-      <guid>http://www.nortbotics.com/blog/common-problems-3d-printing-with-pla</guid>
+      <guid>https://www.2achocolates.github.io/blog/common-problems-3d-printing-with-pla</guid>
       <description>&lt;p&gt;Having problems printing with PLA? I know I’ve had my fair share (and will continue to have them, I am sure). Right now, as of this writing, I’m about 2 weeks into ownership of a Lulzbot TAZ4 3D Printer. It’s a great machine, but not without it’s challenges. There are things I’ve had to take apart, things I’ve had to clean with potent chemicals, or seal with thread tape, and even standard parts of the TAZ4 that I had to replace with improved versions. Definitely not a ‘set it and forget it’ type of deal (but hey, that’s to be expected on the bleeding edge right?).&lt;/p&gt;
 
 &lt;p&gt;Now that I have 25+ prints under my belt - I feel theres a few things I can share here for the benefit of others. Hopefully my befuddlement, and eventual solutions to issues, will benefit others who are trying to figure out how to keep their new expensive toy running and making quality objects. Think of this post as a ‘lessons learned’ when printing with PLA on the Lulzbot TAZ4 (but it probably goes for most other ‘consumer grade’ 3D printers on the market as well).&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;PLA printing requires modifications!!&lt;/p&gt;
+  &lt;p&gt;PLA printing requires modifications!!&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;The good printers can do PLA, ABS, and all kinds of other space age filaments. They advertise this quite heavily. What they don’t tell you as openly is that actually using PLA is going to run into a few more quirks than ABS would, and in-fact the TAZ4 is not “out of the box” ready to print PLA (maybe a couple prints, but eventually you WILL run into issues unless you do certain upgrades/changes to your rig). In fact, if I were doing it all over again and buying my printer and initial batch of filament, I would just get ABS – it may be less eco-friendly, but it also isn’t going to have the &lt;em&gt;heat creep&lt;/em&gt; issues that you may encounter with PLA. All that said, I currently am printing all PLA - and have learned a few things about it that you may benefit from hearing!&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;What makes PLA such a pain in the butt?&lt;/strong&gt;&lt;br /&gt;PLA has a lower melting temperature than ABS, and also has a higher viscosity when it is melted. PLA also holds onto, and conducts, heat more so than ABS.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What makes PLA such a pain in the butt?&lt;/strong&gt;&lt;br /&gt;
+PLA has a lower melting temperature than ABS, and also has a higher viscosity when it is melted. PLA also holds onto, and conducts, heat more so than ABS. &lt;/p&gt;
 
 &lt;p&gt;This all seems like random trivia, but what it means is that PLA is much more prone to 2 major issues:&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;1. Filament Pooling / Leaking&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;1. Filament Pooling / Leaking&lt;/strong&gt; &lt;br /&gt;
+PLA becomes so thin and runny when heated (more so than ABS) that it will seep out of tiny cracks and crevices that ABS won’t. What this means is that if you haven’t sealed your nozzle off with PFTE tape or high-temp thread seal then you can and should expect liquid PLA to flow ‘upwards’ thru the threads of your nozzle during your prints. This is the issue with my Budaschnozzle 2.0, the default extruder and nozzle for the Lulzbot TAZ4. &lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;PLA becomes so thin and runny when heated (more so than ABS) that it will seep out of tiny cracks and crevices that ABS won’t. What this means is that if you haven’t sealed your nozzle off with PFTE tape or high-temp thread seal then you can and should expect liquid PLA to flow ‘upwards’ thru the threads of your nozzle during your prints. This is the issue with my Budaschnozzle 2.0, the default extruder and nozzle for the Lulzbot TAZ4.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Fixing Filament Pooling&lt;/strong&gt;&lt;br /&gt;&lt;a href=&#39;https://www.lulzbot.com/support/budaschnozzle-20-pla-solution&#39;&gt;Lulzbot has shared a few solutions to this issue&lt;/a&gt; - all of which involve taking apart your budaschnozzle and either applying PFTE tape or High-Temp Thread Locker.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fixing Filament Pooling&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.lulzbot.com/support/budaschnozzle-20-pla-solution&quot;&gt;Lulzbot has shared a few solutions to this issue&lt;/a&gt; - all of which involve taking apart your budaschnozzle and either applying PFTE tape or High-Temp Thread Locker.  &lt;/p&gt;
 
 &lt;p&gt;I personally haven’t yet fixed this on my machine. It’s not pretty having filament pooling, but it’s not really having any kind of negative impact on my prints (that I know of).&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;2. Heat Creep &amp;amp; Extruder Clogging&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;2. Heat Creep &amp;amp; Extruder Clogging&lt;/strong&gt;&lt;br /&gt;
+Since PLA conducts heat so well what happens is that heat travels up the filament. This is bad. The heat travels up out of the melting chamber and starts to ‘cook’ the filament above the extruder itself! This is particularly an issue when you are using temperatures too high (like above 185ish) and if you do not have adequate cooling of your extruder above the heating block. So.. what happens when that filament starts to cook is the heated filament starts to expand, and contort, and becomes very hard and brittle. Once this happens your extruder will not be able to push the filament into the melting chamber anymore. It just jams up. At that point, you are stuck - no more printing is going to happen until you open up that extruder assembly and perform surgery and manually get that cooked PLA filament out of there so that you can get back to melting plastic as usual.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Since PLA conducts heat so well what happens is that heat travels up the filament. This is bad. The heat travels up out of the melting chamber and starts to ‘cook’ the filament above the extruder itself! This is particularly an issue when you are using temperatures too high (like above 185ish) and if you do not have adequate cooling of your extruder above the heating block. So.. what happens when that filament starts to cook is the heated filament starts to expand, and contort, and becomes very hard and brittle. Once this happens your extruder will not be able to push the filament into the melting chamber anymore. It just jams up. At that point, you are stuck - no more printing is going to happen until you open up that extruder assembly and perform surgery and manually get that cooked PLA filament out of there so that you can get back to melting plastic as usual.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Symptoms of Heat Creep:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;nothing coming out of extruder when you ‘warm up’ (usually a tiny bit oozes out the end as you come to temperature on the nozzle)&lt;/li&gt;
-
-&lt;li&gt;nothing coming out of extruder when you run the extruder motor (you see the gear turning, but no filament comes out of the nozzle)&lt;/li&gt;
-
-&lt;li&gt;filament being ground down by the hobbed bolt but not pushed/pulled by it (also note, there could be plastic filament all gummed up in the hobbed bolt too - it helps to clean it out when this happens)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Symptoms of Heat Creep:&lt;/strong&gt;
+* nothing coming out of extruder when you ‘warm up’ (usually a tiny bit oozes out the end as you come to temperature on the nozzle)
+* nothing coming out of extruder when you run the extruder motor (you see the gear turning, but no filament comes out of the nozzle)
+* filament being ground down by the hobbed bolt but not pushed/pulled by it (also note, there could be plastic filament all gummed up in the hobbed bolt too - it helps to clean it out when this happens)&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Fixing Heat Creep&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Fixing Heat Creep&lt;/strong&gt;&lt;br /&gt;
+I’m still trying to figure that out. Just when I thought I had a permanent fix to this, then I experienced another extruder clog. It’s a bummer when you find your 3D Printer has been ‘ghost printing’ for the past hour, and you realize you will be spending the next 2 hours taking apart and fiddling with the extruder assembly before you can set up a new print. So I haven’t PLA proofed the 3D Printer just yet, but I will tell you what I have done so far that has helped the heat creep breakdowns become less numerois.  &lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I’m still trying to figure that out. Just when I thought I had a permanent fix to this, then I experienced another extruder clog. It’s a bummer when you find your 3D Printer has been ‘ghost printing’ for the past hour, and you realize you will be spending the next 2 hours taking apart and fiddling with the extruder assembly before you can set up a new print. So I haven’t PLA proofed the 3D Printer just yet, but I will tell you what I have done so far that has helped the heat creep breakdowns become less numerois.&lt;/p&gt;
-
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;STAY LOW-TEMP&lt;/strong&gt;&lt;br /&gt;When printing PLA it’s very important not to run at too high a temperature. I preferred printing at 200 degrees, my prints were finishing well, however this was leading to heat creep and constant clogging issues. Now I try to stay between 180-185.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;ACTIVELY COOL ABOVE THE HEAT BLOCK&lt;/strong&gt;&lt;br /&gt;One issue with the TAZ4 is that the fan comes with a duct that is pointed directly at the nozzle, leaving the area above the heat block completely uncooled. Since we are using PLA, it is extremely important that we not let the heat from the extruder climb up the apparatus and start warping our filament above the melting chamber. What we want to do is focus a bit on the area above the heat block to help prevent the heat creep.&lt;/p&gt;
-&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;STAY LOW-TEMP&lt;/strong&gt;&lt;br /&gt;
+When printing PLA it’s very important not to run at too high a temperature. I preferred printing at 200 degrees, my prints were finishing well, however this was leading to heat creep and constant clogging issues. Now I try to stay between 180-185.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;ACTIVELY COOL ABOVE THE HEAT BLOCK&lt;/strong&gt;&lt;br /&gt;
+One issue with the TAZ4 is that the fan comes with a duct that is pointed directly at the nozzle, leaving the area above the heat block completely uncooled. Since we are using PLA, it is extremely important that we not let the heat from the extruder climb up the apparatus and start warping our filament above the melting chamber. What we want to do is focus a bit on the area above the heat block to help prevent the heat creep. &lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;To fix this on the TAZ4, you will want to replace the existing fan duct with &lt;a href=&#39;http://www.thingiverse.com/thing:374906&#39;&gt;this great &amp;#39;dual&amp;#39; fan duct&lt;/a&gt; created by another TAZ4 user. This duct will focus more cooling on the area above the heat block.&lt;/p&gt;
+&lt;p&gt;To fix this on the TAZ4, you will want to replace the existing fan duct with &lt;a href=&quot;http://www.thingiverse.com/thing:374906&quot;&gt;this great ‘dual’ fan duct&lt;/a&gt; created by another TAZ4 user. This duct will focus more cooling on the area above the heat block.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://www.flickr.com/photos/126939770@N02/15252953945&#39; title=&#39;dual-fan-duct by Joe Norton, on Flickr&#39;&gt;&lt;img alt=&#39;dual-fan-duct&#39; height=&#39;241&#39; src=&#39;https://farm4.staticflickr.com/3882/15252953945_d824131f9d_n.jpg&#39; width=&#39;320&#39; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.flickr.com/photos/126939770@N02/15252953945&quot; title=&quot;dual-fan-duct by Joe Norton, on Flickr&quot;&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3882/15252953945_d824131f9d_n.jpg&quot; width=&quot;320&quot; height=&quot;241&quot; alt=&quot;dual-fan-duct&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I have made one of these myself, it is an easy print and it self-taps with the original screws that come with the TAZ4. It works nicely. Much better at directing air above the heat block, and thus preventing heat creep to some degree.&lt;/p&gt;
 
-&lt;p&gt;Lastly, now that you have your new fan duct you will want to make sure you keep that fan running all the time!&lt;/p&gt;
+&lt;p&gt;Lastly, now that you have your new fan duct you will want to make sure you keep that fan running all the time!  &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;UPDATE (10/26):&lt;/strong&gt; Turns out this fan will probably end up leaving your ‘nozzle tip cooling’ somewhat underpowered. I ended up seeing worse printing performance when it came to bridging. Also, I noticed that the edges on the side opposite the fan were ending up with a worse quality finish. I was starting to think I needed a fan on the other side focused at the nozzle tip but then decided to go another way with it, and have one fan focused on the nozzle while the 2nd fan was focused entirely on the area above the melting chamber and below the ‘cold end’ of the extruder. Scrool to bottom of this post for more on adding a 2nd fan.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UPDATE (10/26):&lt;/strong&gt; Turns out this fan will probably end up leaving your ‘nozzle tip cooling’ somewhat underpowered. I ended up seeing worse printing performance when it came to bridging. Also, I noticed that the edges on the side opposite the fan were ending up with a worse quality finish. I was starting to think I needed a fan on the other side focused at the nozzle tip but then decided to go another way with it, and have one fan focused on the nozzle while the 2nd fan was focused entirely on the area above the melting chamber and below the ‘cold end’ of the extruder. Scrool to bottom of this post for more on adding a 2nd fan.  &lt;/p&gt;
 
 &lt;p&gt;That’s it. Hopefully with these tips you can keep heat creep to a minimum and keep that printer running!&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;UPDATE (9/29):&lt;/strong&gt; Unfortunately, my problems persisted and I eventually ended up having to my extruder head replaced by the manufacturer! So far, Lulzbot support has been excellent!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UPDATE (9/29):&lt;/strong&gt;  Unfortunately, my problems persisted and I eventually ended up having to my extruder head replaced by the manufacturer! So far, Lulzbot support has been excellent!&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;UPDATE (10/26):&lt;/strong&gt; I finally seem to have resolved my issues with heat creep. The new extruder head didn’t fix it, but it did help (I had contaiminated the prior one by getting PTFE grinds into the melting chamber). Here’s what finally did the trick - &lt;a href=&quot;/blog/adding-a-second-fan-targeting-heat-creep&quot;&gt;Adding A Second Fan Targeting Heat Creep&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;UPDATE (10/26):&lt;/strong&gt; I finally seem to have resolved my issues with heat creep. The new extruder head didn’t fix it, but it did help (I had contaiminated the prior one by getting PTFE grinds into the melting chamber). Here’s what finally did the trick - &lt;a href=&quot;/blog/adding-a-second-fan-targeting-heat-creep&quot;&gt;Adding A Second Fan Targeting Heat Creep&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     

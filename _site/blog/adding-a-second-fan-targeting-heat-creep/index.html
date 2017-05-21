@@ -2,11 +2,11 @@
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <link rel="canonical" href="http://www.nortbotics.com/blog/adding-a-second-fan-targeting-heat-creep">
+    <link rel="canonical" href="https://www.2achocolates.github.io/blog/adding-a-second-fan-targeting-heat-creep">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
 
-        Adding A Second Fan Targeting Heat Creep | Nortbotics
+        Adding A Second Fan Targeting Heat Creep | A & A Chocolates
 
 </title> 
     
@@ -17,10 +17,10 @@
     <!-- FONT AWESOME -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://www.nortbotics.com/js/lightbox.min.js"></script>
-    <script src="http://www.nortbotics.com/js/jquery.feeds.min.js"></script>
+    <script src="https://www.2achocolates.github.io/js/lightbox.min.js"></script>
+    <script src="https://www.2achocolates.github.io/js/jquery.feeds.min.js"></script>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/images/nr-logo.png"/>
+    <link rel="apple-touch-icon" href="/images/profile_image1.jpg"/>
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -36,7 +36,7 @@
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="Home Made Chocolates" />
+    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="A & A Chocolates" />
     
     <meta name="description" content="In order to finally stop extruder jams caused by heat creep with PLA I added a 2nd fan; here's how."/>
  
@@ -57,7 +57,7 @@
     <div class="black_bar"></div>
     <header>
         <nav id="navigation">
-        <a class="brand" id="home_button" href="/" style="text-decoration: none;color:#fff;" onMouseOver="this.style.border='none'"><img src="/images/nr-logo.png" alt="Nortbortics" style="margin-top:-4px;"><span id="ort" style="margin-left:-29px;font-size:1.2em;">ortbotics &nbsp; &nbsp;  &nbsp; &nbsp;</span>
+        <a class="brand" id="home_button" href="/" style="text-decoration: none;color:#fff;" onMouseOver="this.style.border='none'"><img src="/images/profile_image1.jpg" alt="Nortbortics" style="margin-top:-4px;"><span id="ort" style="margin-left:-29px;font-size:1.2em;">ortbotics &nbsp; &nbsp;  &nbsp; &nbsp;</span>
                 </a>&nbsp; &nbsp; 
                 <span class="top_nav">
                     <a href="/shop/">Shop</a>  &nbsp; &nbsp; &nbsp;   
@@ -101,110 +101,7 @@
 
     <div class="container">
         <header>
-            <h1 class="title">Adding A Second Fan Targeting Heat Creep</h1>
-            <h2 class="subtitle">how I stopped PLA extruder jams by adding a 2nd fan</h2>
-                    <div class="meta">
-                
-                    
-                        By <address><a rel="author" href="http://www.nortbotics.com" title="Joe Norton" target="_blank">Joe Norton</a></address>
-                    
-                
-                 &mdash;
-                <time pubdate datetime="2014-26-October" title="October 26, 2014">October 26, 2014</time>
-            </div>
-            <div class="category_labels"><a href="/blog/category/3d-printing/">3D PRINTING</a></div>
         </header>
-
-        <section class="index">
-        
-            
-                <img src="/images/2nd-fan-mounted.png" class="post-cap">
-            
-        
-            <p>There are a couple ways to integrate a 2nd fan into your 3D printing system. This is how I did it.</p>
-
-<p>First, you need to get a second fan; you can get them from many places online. Just be sensitive to the voltage needs of your fan. I went with a 24V, because I wanted to move some serious air – but that also means you need to supply that much more power.</p>
-
-<p>Now, it’s time to figure out how to power it and make it run. You always could plug this into your main power supply for the 3d printer; the TAZ4 comes with space for these kinds of additions. Personally, I decided to NOT plug it into my 3D printer controller for power, and instead I choose to run that fan on it’s own separate power supply.</p>
-
-<p>I had a 19V power adapter laying around so I used that instead. It does not allow the fan to go it’s fastest possible speed; it is perhaps around 80% of it’s potential speed. This has worked good so far - especially since I keep it running alot, it feels like it makes sense for it not to be hauling ass all the time but to run at a slightly less than full capacity speed. Note: I first tested a 12V adapter, and the fan was not moving fast enough to be useful. It didn’t pass the ‘tissue test’, so I upgraded it to the 19V supply and that did much better with the ‘tissue test’. (Tissue test: if you put a tissue in front of the fan while running full blast, does it actually move the tissue around?)</p>
-
-<p>I like this particular setup because I can keep that fan running at it’s top speed (based on our power supply) for the entire print very easily. I don’t need to make any changes to my 3d printer settings, or to my print settings, in order to add in extra gcode into my prints to make that fan run. It just runs when I have it plugged it.</p>
-
-<p>Next, we need a new fan mount for this ‘heat creep fan’. Due to the positioning of the budaschnozzle, the leftside of the extruder has less space than the right does wrt the fan so you will need a fan mount that takes this into account.</p>
-
-<p><a href='http://www.thingiverse.com/thing:368303' target='_blank'><img src='/images/heat-creep-fan-mount.png' style='float:right;' /></a>I looked at a bunch on thingiverse, printed a few, and finally settled on this one: <a href='http://www.thingiverse.com/thing:368303' target='_blank'>Fan shroud for Lulzbot TAZ 4 hotend</a> (Seen on right)</p>
-
-<p>It prints easily, self-taps, and best of all - is a good design for the task.</p>
-
-<p>Since I added my 2nd fan I have not had any extruder jams. I will admit, on occasion I hear grinding – but so far so good on the jams. The grinding always stops and works itself out without any kind of issue or intervention on my part – and most importantly, I am not seeing the finish issues I had with the heat creep going on. I used to see lots of streaking, and patchiness in my print finishes, but that is gone for the moment.</p>
-
-<p>So far, that’s my best advice for preventing heat creep - get a 2nd fan!</p>
-            
-<div class="social">
-    <div>
-        <a href="https://twitter.com/share" class="twitter-share-button"  data-text="Adding A Second Fan Targeting Heat Creep" data-related="nortbotics">Tweet</a>
-    </div>
-    
-    
-    
-    <div>
-        <div class="g-plusone" data-size="medium"></div>
-    </div>
-    
-    
-    
-</div>
-
-        </section>
-
-        <footer>
-            <address>
-            
-                
-                   <img src="/images/jn.png">
-                    <p>Written by <strong><a rel="author" href="https://twitter.com/joenorton" title="" target="_blank">Joe Norton</a></strong><br>
-                    <span class="muted">Founder & Chief Dreamer</span>
-                    </p>
-                
-            
-            </address>
-            <hr>
-                        <small>
-                <h2>MORE BLOGPOSTS</h2>
-                <ul>
-                
-                    
-                    <li><a href="/blog/building-a-litearm-i1-robot-arm">Building the LiteArm i1 Robot Arm</a></li>
-                    
-                
-                    
-                    <li><a href="/blog/basic-2-wheeled-robot-arduino-uno">Make Your Own Basic 2-Wheeled Robot</a></li>
-                    
-                
-                    
-                    <li><a href="/blog/list-of-open-source-robot-arm-projects">List of Open-Source Robot Arm Projects</a></li>
-                    
-                
-                </ul>
-            </small>
-        </footer>
-        
-        <section>
-            <div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'nortbotics'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-        </section>
-        
 
     </div>
         <div style="float:right;">
@@ -233,7 +130,7 @@
         
         <nav class="social pull-right">
             
-            <a href="https://twitter.com/nortbotics" title="Follow on Twitter" target="_blank"><i class="fa fa-twitter white"></i></a>
+            <a href="https://twitter.com/2achocolates" title="Follow on Twitter" target="_blank"><i class="fa fa-twitter white"></i></a>
             
                 
             <a href="/feed.xml" title="RSS Feed">
@@ -246,7 +143,7 @@
     <div class="container">
     <br />
         <p id="copyright_heading" style="text-align:center;">
-        &copy; 2017 <a href="/">Nortbotics</a>
+        &copy; 2017 <a href="/">A & A Chocolates</a>
         </p>
     </div>
 </footer>

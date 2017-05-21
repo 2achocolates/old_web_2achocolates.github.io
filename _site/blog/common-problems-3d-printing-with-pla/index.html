@@ -2,11 +2,11 @@
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <link rel="canonical" href="http://www.nortbotics.com/blog/common-problems-3d-printing-with-pla">
+    <link rel="canonical" href="https://www.2achocolates.github.io/blog/common-problems-3d-printing-with-pla">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
 
-        Common problems 3D printing with PLA | Nortbotics
+        Common problems 3D printing with PLA | A & A Chocolates
 
 </title> 
     
@@ -17,10 +17,10 @@
     <!-- FONT AWESOME -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://www.nortbotics.com/js/lightbox.min.js"></script>
-    <script src="http://www.nortbotics.com/js/jquery.feeds.min.js"></script>
+    <script src="https://www.2achocolates.github.io/js/lightbox.min.js"></script>
+    <script src="https://www.2achocolates.github.io/js/jquery.feeds.min.js"></script>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/images/nr-logo.png"/>
+    <link rel="apple-touch-icon" href="/images/profile_image1.jpg"/>
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -36,7 +36,7 @@
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="Home Made Chocolates" />
+    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="A & A Chocolates" />
     
     <meta name="description" content="This is an ongoing collection of lessons learned using PLA on 3D printers (specifically, the Lulzbot TAZ4). Hopefully my befuddlement, and eventual solutions, to some of the most common issues such as Heat Creep, Extruder Clogging, and Filament Leaking/Pooling will benefit others."/>
  
@@ -57,7 +57,7 @@
     <div class="black_bar"></div>
     <header>
         <nav id="navigation">
-        <a class="brand" id="home_button" href="/" style="text-decoration: none;color:#fff;" onMouseOver="this.style.border='none'"><img src="/images/nr-logo.png" alt="Nortbortics" style="margin-top:-4px;"><span id="ort" style="margin-left:-29px;font-size:1.2em;">ortbotics &nbsp; &nbsp;  &nbsp; &nbsp;</span>
+        <a class="brand" id="home_button" href="/" style="text-decoration: none;color:#fff;" onMouseOver="this.style.border='none'"><img src="/images/profile_image1.jpg" alt="Nortbortics" style="margin-top:-4px;"><span id="ort" style="margin-left:-29px;font-size:1.2em;">ortbotics &nbsp; &nbsp;  &nbsp; &nbsp;</span>
                 </a>&nbsp; &nbsp; 
                 <span class="top_nav">
                     <a href="/shop/">Shop</a>  &nbsp; &nbsp; &nbsp;   
@@ -101,162 +101,7 @@
 
     <div class="container">
         <header>
-            <h1 class="title">Common problems 3D printing with PLA</h1>
-            <h2 class="subtitle">problems with heat creep & pooling</h2>
-                    <div class="meta">
-                
-                    
-                        By <address><a rel="author" href="http://www.nortbotics.com" title="Joe Norton" target="_blank">Joe Norton</a></address>
-                    
-                
-                 &mdash;
-                <time pubdate datetime="2014-12-September" title="September 12, 2014">September 12, 2014</time>
-            </div>
-            <div class="category_labels"><a href="/blog/category/3d-printing/">3D PRINTING</a></div>
         </header>
-
-        <section class="index">
-        
-            
-                <img src="/images/perils-of-pla.jpg" class="post-cap">
-            
-        
-            <p>Having problems printing with PLA? I know I’ve had my fair share (and will continue to have them, I am sure). Right now, as of this writing, I’m about 2 weeks into ownership of a Lulzbot TAZ4 3D Printer. It’s a great machine, but not without it’s challenges. There are things I’ve had to take apart, things I’ve had to clean with potent chemicals, or seal with thread tape, and even standard parts of the TAZ4 that I had to replace with improved versions. Definitely not a ‘set it and forget it’ type of deal (but hey, that’s to be expected on the bleeding edge right?).</p>
-
-<p>Now that I have 25+ prints under my belt - I feel theres a few things I can share here for the benefit of others. Hopefully my befuddlement, and eventual solutions to issues, will benefit others who are trying to figure out how to keep their new expensive toy running and making quality objects. Think of this post as a ‘lessons learned’ when printing with PLA on the Lulzbot TAZ4 (but it probably goes for most other ‘consumer grade’ 3D printers on the market as well).</p>
-
-<blockquote>
-<p>PLA printing requires modifications!!</p>
-</blockquote>
-
-<p>The good printers can do PLA, ABS, and all kinds of other space age filaments. They advertise this quite heavily. What they don’t tell you as openly is that actually using PLA is going to run into a few more quirks than ABS would, and in-fact the TAZ4 is not “out of the box” ready to print PLA (maybe a couple prints, but eventually you WILL run into issues unless you do certain upgrades/changes to your rig). In fact, if I were doing it all over again and buying my printer and initial batch of filament, I would just get ABS – it may be less eco-friendly, but it also isn’t going to have the <em>heat creep</em> issues that you may encounter with PLA. All that said, I currently am printing all PLA - and have learned a few things about it that you may benefit from hearing!</p>
-
-<p><strong>What makes PLA such a pain in the butt?</strong><br />PLA has a lower melting temperature than ABS, and also has a higher viscosity when it is melted. PLA also holds onto, and conducts, heat more so than ABS.</p>
-
-<p>This all seems like random trivia, but what it means is that PLA is much more prone to 2 major issues:</p>
-
-<blockquote>
-<p><strong>1. Filament Pooling / Leaking</strong></p>
-</blockquote>
-
-<p>PLA becomes so thin and runny when heated (more so than ABS) that it will seep out of tiny cracks and crevices that ABS won’t. What this means is that if you haven’t sealed your nozzle off with PFTE tape or high-temp thread seal then you can and should expect liquid PLA to flow ‘upwards’ thru the threads of your nozzle during your prints. This is the issue with my Budaschnozzle 2.0, the default extruder and nozzle for the Lulzbot TAZ4.</p>
-
-<p><strong>Fixing Filament Pooling</strong><br /><a href='https://www.lulzbot.com/support/budaschnozzle-20-pla-solution'>Lulzbot has shared a few solutions to this issue</a> - all of which involve taking apart your budaschnozzle and either applying PFTE tape or High-Temp Thread Locker.</p>
-
-<p>I personally haven’t yet fixed this on my machine. It’s not pretty having filament pooling, but it’s not really having any kind of negative impact on my prints (that I know of).</p>
-
-<blockquote>
-<p><strong>2. Heat Creep &amp; Extruder Clogging</strong></p>
-</blockquote>
-
-<p>Since PLA conducts heat so well what happens is that heat travels up the filament. This is bad. The heat travels up out of the melting chamber and starts to ‘cook’ the filament above the extruder itself! This is particularly an issue when you are using temperatures too high (like above 185ish) and if you do not have adequate cooling of your extruder above the heating block. So.. what happens when that filament starts to cook is the heated filament starts to expand, and contort, and becomes very hard and brittle. Once this happens your extruder will not be able to push the filament into the melting chamber anymore. It just jams up. At that point, you are stuck - no more printing is going to happen until you open up that extruder assembly and perform surgery and manually get that cooked PLA filament out of there so that you can get back to melting plastic as usual.</p>
-
-<p><strong>Symptoms of Heat Creep:</strong></p>
-
-<ul>
-<li>nothing coming out of extruder when you ‘warm up’ (usually a tiny bit oozes out the end as you come to temperature on the nozzle)</li>
-
-<li>nothing coming out of extruder when you run the extruder motor (you see the gear turning, but no filament comes out of the nozzle)</li>
-
-<li>filament being ground down by the hobbed bolt but not pushed/pulled by it (also note, there could be plastic filament all gummed up in the hobbed bolt too - it helps to clean it out when this happens)</li>
-</ul>
-
-<blockquote>
-<p><strong>Fixing Heat Creep</strong></p>
-</blockquote>
-
-<p>I’m still trying to figure that out. Just when I thought I had a permanent fix to this, then I experienced another extruder clog. It’s a bummer when you find your 3D Printer has been ‘ghost printing’ for the past hour, and you realize you will be spending the next 2 hours taking apart and fiddling with the extruder assembly before you can set up a new print. So I haven’t PLA proofed the 3D Printer just yet, but I will tell you what I have done so far that has helped the heat creep breakdowns become less numerois.</p>
-
-<ol>
-<li>
-<p><strong>STAY LOW-TEMP</strong><br />When printing PLA it’s very important not to run at too high a temperature. I preferred printing at 200 degrees, my prints were finishing well, however this was leading to heat creep and constant clogging issues. Now I try to stay between 180-185.</p>
-</li>
-
-<li>
-<p><strong>ACTIVELY COOL ABOVE THE HEAT BLOCK</strong><br />One issue with the TAZ4 is that the fan comes with a duct that is pointed directly at the nozzle, leaving the area above the heat block completely uncooled. Since we are using PLA, it is extremely important that we not let the heat from the extruder climb up the apparatus and start warping our filament above the melting chamber. What we want to do is focus a bit on the area above the heat block to help prevent the heat creep.</p>
-</li>
-</ol>
-
-<p>To fix this on the TAZ4, you will want to replace the existing fan duct with <a href='http://www.thingiverse.com/thing:374906'>this great &#39;dual&#39; fan duct</a> created by another TAZ4 user. This duct will focus more cooling on the area above the heat block.</p>
-
-<p><a href='https://www.flickr.com/photos/126939770@N02/15252953945' title='dual-fan-duct by Joe Norton, on Flickr'><img alt='dual-fan-duct' height='241' src='https://farm4.staticflickr.com/3882/15252953945_d824131f9d_n.jpg' width='320' /></a></p>
-
-<p>I have made one of these myself, it is an easy print and it self-taps with the original screws that come with the TAZ4. It works nicely. Much better at directing air above the heat block, and thus preventing heat creep to some degree.</p>
-
-<p>Lastly, now that you have your new fan duct you will want to make sure you keep that fan running all the time!</p>
-
-<p><strong>UPDATE (10/26):</strong> Turns out this fan will probably end up leaving your ‘nozzle tip cooling’ somewhat underpowered. I ended up seeing worse printing performance when it came to bridging. Also, I noticed that the edges on the side opposite the fan were ending up with a worse quality finish. I was starting to think I needed a fan on the other side focused at the nozzle tip but then decided to go another way with it, and have one fan focused on the nozzle while the 2nd fan was focused entirely on the area above the melting chamber and below the ‘cold end’ of the extruder. Scrool to bottom of this post for more on adding a 2nd fan.</p>
-
-<p>That’s it. Hopefully with these tips you can keep heat creep to a minimum and keep that printer running!</p>
-
-<p><strong>UPDATE (9/29):</strong> Unfortunately, my problems persisted and I eventually ended up having to my extruder head replaced by the manufacturer! So far, Lulzbot support has been excellent!</p>
-
-<p><strong>UPDATE (10/26):</strong> I finally seem to have resolved my issues with heat creep. The new extruder head didn’t fix it, but it did help (I had contaiminated the prior one by getting PTFE grinds into the melting chamber). Here’s what finally did the trick - <a href="/blog/adding-a-second-fan-targeting-heat-creep">Adding A Second Fan Targeting Heat Creep</a></p>
-            
-<div class="social">
-    <div>
-        <a href="https://twitter.com/share" class="twitter-share-button"  data-text="Common problems 3D printing with PLA" data-related="nortbotics">Tweet</a>
-    </div>
-    
-    
-    
-    <div>
-        <div class="g-plusone" data-size="medium"></div>
-    </div>
-    
-    
-    
-</div>
-
-        </section>
-
-        <footer>
-            <address>
-            
-                
-                   <img src="/images/jn.png">
-                    <p>Written by <strong><a rel="author" href="https://twitter.com/joenorton" title="" target="_blank">Joe Norton</a></strong><br>
-                    <span class="muted">Founder & Chief Dreamer</span>
-                    </p>
-                
-            
-            </address>
-            <hr>
-                        <small>
-                <h2>MORE BLOGPOSTS</h2>
-                <ul>
-                
-                    
-                    <li><a href="/blog/adding-a-second-fan-targeting-heat-creep">Adding A Second Fan Targeting Heat Creep</a></li>
-                    
-                
-                    
-                    <li><a href="/blog/building-a-litearm-i1-robot-arm">Building the LiteArm i1 Robot Arm</a></li>
-                    
-                
-                    
-                    <li><a href="/blog/basic-2-wheeled-robot-arduino-uno">Make Your Own Basic 2-Wheeled Robot</a></li>
-                    
-                
-                </ul>
-            </small>
-        </footer>
-        
-        <section>
-            <div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'nortbotics'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-        </section>
-        
 
     </div>
         <div style="float:right;">
@@ -285,7 +130,7 @@
         
         <nav class="social pull-right">
             
-            <a href="https://twitter.com/nortbotics" title="Follow on Twitter" target="_blank"><i class="fa fa-twitter white"></i></a>
+            <a href="https://twitter.com/2achocolates" title="Follow on Twitter" target="_blank"><i class="fa fa-twitter white"></i></a>
             
                 
             <a href="/feed.xml" title="RSS Feed">
@@ -298,7 +143,7 @@
     <div class="container">
     <br />
         <p id="copyright_heading" style="text-align:center;">
-        &copy; 2017 <a href="/">Nortbotics</a>
+        &copy; 2017 <a href="/">A & A Chocolates</a>
         </p>
     </div>
 </footer>
