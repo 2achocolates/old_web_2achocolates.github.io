@@ -6,8 +6,8 @@
     <atom:link href="https://www.2achocolates.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Sun, 21 May 2017 23:19:40 +0000</pubDate>
-    <lastBuildDate>Sun, 21 May 2017 23:19:40 +0000</lastBuildDate>
+    <pubDate>Mon, 22 May 2017 18:10:24 +0000</pubDate>
+    <lastBuildDate>Mon, 22 May 2017 18:10:24 +0000</lastBuildDate>
 
     
     
@@ -17,23 +17,23 @@
       <pubDate>Sun, 26 Oct 2014 00:00:00 +0000</pubDate>
       <author>Joe Norton</author>
       <guid>https://www.2achocolates.github.io/blog/adding-a-second-fan-targeting-heat-creep</guid>
-      <description>&lt;p&gt;There are a couple ways to integrate a 2nd fan into your 3D printing system. This is how I did it.     &lt;/p&gt;
+      <description>&lt;p&gt;There are a couple ways to integrate a 2nd fan into your 3D printing system. This is how I did it.&lt;/p&gt;
 
 &lt;p&gt;First, you need to get a second fan; you can get them from many places online. Just be sensitive to the voltage needs of your fan. I went with a 24V, because I wanted to move some serious air – but that also means you need to supply that much more power.&lt;/p&gt;
 
 &lt;p&gt;Now, it’s time to figure out how to power it and make it run. You always could plug this into your main power supply for the 3d printer; the TAZ4 comes with space for these kinds of additions. Personally, I decided to NOT plug it into my 3D printer controller for power, and instead I choose to run that fan on it’s own separate power supply.&lt;/p&gt;
 
-&lt;p&gt;I had a 19V power adapter laying around so I used that instead. It does not allow the fan to go it’s fastest possible speed; it is perhaps around 80% of it’s potential speed. This has worked good so far - especially since I keep it running alot, it feels like it makes sense for it not to be hauling ass all the time but to run at a slightly less than full capacity speed. Note: I first tested a 12V adapter, and the fan was not moving fast enough to be useful. It didn’t pass the ‘tissue test’, so I upgraded it to the 19V supply and that did much better with the ‘tissue test’. (Tissue test: if you put a tissue in front of the fan while running full blast, does it actually move the tissue around?)  &lt;/p&gt;
+&lt;p&gt;I had a 19V power adapter laying around so I used that instead. It does not allow the fan to go it’s fastest possible speed; it is perhaps around 80% of it’s potential speed. This has worked good so far - especially since I keep it running alot, it feels like it makes sense for it not to be hauling ass all the time but to run at a slightly less than full capacity speed. Note: I first tested a 12V adapter, and the fan was not moving fast enough to be useful. It didn’t pass the ‘tissue test’, so I upgraded it to the 19V supply and that did much better with the ‘tissue test’. (Tissue test: if you put a tissue in front of the fan while running full blast, does it actually move the tissue around?)&lt;/p&gt;
 
-&lt;p&gt;I like this particular setup because I can keep that fan running at it’s top speed (based on our power supply) for the entire print very easily. I don’t need to make any changes to my 3d printer settings, or to my print settings, in order to add in extra gcode into my prints to make that fan run. It just runs when I have it plugged it.  &lt;/p&gt;
+&lt;p&gt;I like this particular setup because I can keep that fan running at it’s top speed (based on our power supply) for the entire print very easily. I don’t need to make any changes to my 3d printer settings, or to my print settings, in order to add in extra gcode into my prints to make that fan run. It just runs when I have it plugged it.&lt;/p&gt;
 
-&lt;p&gt;Next, we need a new fan mount for this ‘heat creep fan’. Due to the positioning of the budaschnozzle, the leftside of the extruder has less space than the right does wrt the fan so you will need a fan mount that takes this into account.  &lt;/p&gt;
+&lt;p&gt;Next, we need a new fan mount for this ‘heat creep fan’. Due to the positioning of the budaschnozzle, the leftside of the extruder has less space than the right does wrt the fan so you will need a fan mount that takes this into account.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.thingiverse.com/thing:368303&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/heat-creep-fan-mount.png&quot; style=&quot;float:right;&quot; /&gt;&lt;/a&gt;I looked at a bunch on thingiverse, printed a few, and finally settled on this one: &lt;a href=&quot;http://www.thingiverse.com/thing:368303&quot; target=&quot;_blank&quot;&gt;Fan shroud for Lulzbot TAZ 4 hotend&lt;/a&gt;  (Seen on right)&lt;/p&gt;
 
-&lt;p&gt;It prints easily, self-taps, and best of all - is a good design for the task.   &lt;/p&gt;
+&lt;p&gt;It prints easily, self-taps, and best of all - is a good design for the task.&lt;/p&gt;
 
-&lt;p&gt;Since I added my 2nd fan I have not had any extruder jams. I will admit, on occasion I hear grinding – but so far so good on the jams. The grinding always stops and works itself out without any kind of issue or intervention on my part – and most importantly, I am not seeing the finish issues I had with the heat creep going on. I used to see lots of streaking, and patchiness in my print finishes, but that is gone for the moment.  &lt;/p&gt;
+&lt;p&gt;Since I added my 2nd fan I have not had any extruder jams. I will admit, on occasion I hear grinding – but so far so good on the jams. The grinding always stops and works itself out without any kind of issue or intervention on my part – and most importantly, I am not seeing the finish issues I had with the heat creep going on. I used to see lots of streaking, and patchiness in my print finishes, but that is gone for the moment.&lt;/p&gt;
 
 &lt;p&gt;So far, that’s my best advice for preventing heat creep - get a 2nd fan!&lt;/p&gt;
 </description>
@@ -109,7 +109,7 @@ Here is the &lt;a href=&quot;https://www.flickr.com/photos/126939770@N02/sets/72
 &lt;h3 id=&quot;parts&quot;&gt;Parts:&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Arduino Uno&lt;/li&gt;
-  &lt;li&gt;Sensor Shield  &lt;/li&gt;
+  &lt;li&gt;Sensor Shield&lt;/li&gt;
   &lt;li&gt;2 Continuous Rotation Servos (Parallax)&lt;/li&gt;
   &lt;li&gt;2 Wheels (Parallax)&lt;/li&gt;
   &lt;li&gt;9 volt battery&lt;/li&gt;
@@ -118,12 +118,12 @@ Here is the &lt;a href=&quot;https://www.flickr.com/photos/126939770@N02/sets/72
 
 &lt;p&gt;This is an extremely simple project. The tricky part is sourcing an adequate ‘robot body’. You can make your own at home, out of cardboard, or other common materials. I have done that, and it’s okay as well.&lt;/p&gt;
 
-&lt;p&gt;I decided to 3D print my robot body here for this project. I found a nice ‘small mobile robot’ model on Thingiverse and made that. Side-note: I am working on a modified version, with advanced functionality and additional parts (codenamed ‘Mini-Mo’).  &lt;/p&gt;
+&lt;p&gt;I decided to 3D print my robot body here for this project. I found a nice ‘small mobile robot’ model on Thingiverse and made that. Side-note: I am working on a modified version, with advanced functionality and additional parts (codenamed ‘Mini-Mo’).&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.thingiverse.com/thing:207522&quot;&gt;Here is the 3D model on Thingiverse&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.thingiverse.com/thing:207522&quot;&gt;Here is the 3D model on Thingiverse&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Here is how my 3D printed body came out. Not perfect, but it will do.  &lt;br /&gt;
-&lt;img src=&quot;/images/small-mobile-robot-body.jpg&quot; /&gt;  &lt;/p&gt;
+&lt;img src=&quot;/images/small-mobile-robot-body.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;put-it-together&quot;&gt;Put it together&lt;/h2&gt;
 &lt;p&gt;This part really depends on your robot body. Essentially, here are the steps taking place:
@@ -137,7 +137,7 @@ Here is the &lt;a href=&quot;https://www.flickr.com/photos/126939770@N02/sets/72
 
 &lt;h2 id=&quot;upload-some-code&quot;&gt;Upload some code&lt;/h2&gt;
 
-&lt;p&gt;Here is some xample code for running simple differential drive on the arduino. All we are doing is declaring 2 servos, attached to pins 9 &amp;amp; 10, and then sending them difference coordinated sets of pulses depend on which way we want the wheels to turn.  &lt;/p&gt;
+&lt;p&gt;Here is some xample code for running simple differential drive on the arduino. All we are doing is declaring 2 servos, attached to pins 9 &amp;amp; 10, and then sending them difference coordinated sets of pulses depend on which way we want the wheels to turn.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;/*
 Simple Differential Drive Example
@@ -296,9 +296,9 @@ All said and done, here is how the small mobile robot turned out. It’s really 
 &lt;h2 id=&quot;can-you-create-an-autonomous-picking-robot&quot;&gt;Can you create an autonomous picking robot?&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Here are the details of the contest:&lt;/strong&gt;&lt;br /&gt;
-&lt;em&gt;This competition will challenge entrants to build their own robot hardware and software that can attempt simplified versions of the general task of picking items from shelves. The robots will be presented with a stationary lightly populated inventory shelf and be asked to pick a subset of the products and put them on a table. The challenge combines object recognition, pose recognition, grasp planning, compliant manipulation, motion planning, task planning, task execution, and error detection and recovery. The robots will be scored by how many items are picked in a fixed amount of time, with $26,000 in prizes being awarded. Participants will be encouraged to share and disseminate their approach to improve future challenge results and industrial implementations.&lt;/em&gt;  &lt;/p&gt;
+&lt;em&gt;This competition will challenge entrants to build their own robot hardware and software that can attempt simplified versions of the general task of picking items from shelves. The robots will be presented with a stationary lightly populated inventory shelf and be asked to pick a subset of the products and put them on a table. The challenge combines object recognition, pose recognition, grasp planning, compliant manipulation, motion planning, task planning, task execution, and error detection and recovery. The robots will be scored by how many items are picked in a fixed amount of time, with $26,000 in prizes being awarded. Participants will be encouraged to share and disseminate their approach to improve future challenge results and industrial implementations.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Learn more at the &lt;a href=&quot;http://amazonpickingchallenge.org/&quot;&gt;Amazon Picking Challenge page&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;Learn more at the &lt;a href=&quot;http://amazonpickingchallenge.org/&quot;&gt;Amazon Picking Challenge page&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -315,10 +315,10 @@ All said and done, here is how the small mobile robot turned out. It’s really 
 &lt;p&gt;Here are my tips and tricks for unclogging your PLA Extruder jams.&lt;/p&gt;
 
 &lt;h2 id=&quot;if-you-catch-the-clog-when-it-first-happens-you-can-prevent-the-really-bad-jams&quot;&gt;1. If you catch the clog when it first happens, you can prevent the really bad jams.&lt;/h2&gt;
-&lt;p&gt;If you hear a clicking coming from the tool head, followed by a grinding sound from the hobbed bolt area, then you can be pretty sure you’ve got a jam. If you pull out the filament while the extruder is still hot, and jam is new, then it won’t have had time to warp so much. In my experience, if you can yank out a jam right when it happens then you can clean up the hobbed bolt and be back to printing in minutes. Saving you potentially hours of frustrating extruder tinkering.  &lt;/p&gt;
+&lt;p&gt;If you hear a clicking coming from the tool head, followed by a grinding sound from the hobbed bolt area, then you can be pretty sure you’ve got a jam. If you pull out the filament while the extruder is still hot, and jam is new, then it won’t have had time to warp so much. In my experience, if you can yank out a jam right when it happens then you can clean up the hobbed bolt and be back to printing in minutes. Saving you potentially hours of frustrating extruder tinkering.&lt;/p&gt;
 
 &lt;h2 id=&quot;if-you-didnt-catch-it-right-away-remember-to-bring-the-extruder-up-to-temperature-before-trying-to-pull-the-filament&quot;&gt;2. If you didn’t catch it right away, remember to bring the extruder up to temperature before trying to pull the filament&lt;/h2&gt;
-&lt;p&gt;Pulling too hard when it isn’t hot could lead to breaking something. Either that, or it just won’t go anywhere.  &lt;/p&gt;
+&lt;p&gt;Pulling too hard when it isn’t hot could lead to breaking something. Either that, or it just won’t go anywhere.&lt;/p&gt;
 
 &lt;h2 id=&quot;make-sure-to-clean-out-the-hobbed-bolt&quot;&gt;3. Make sure to clean out the hobbed bolt.&lt;/h2&gt;
 &lt;p&gt;It will likely be filled with filament, and will require careful picking to be cleaned out. Try note to damage the threads of the bolt while doing so. In my experience, you will need to use a stainless steel pick (like the dental kind) to really get the gunk out of there. If you don’t clean it, then you will notice right away the filament isn’t getting ‘pushed’ down the extruder as well.&lt;/p&gt;
@@ -328,14 +328,14 @@ All said and done, here is how the small mobile robot turned out. It’s really 
 &lt;p&gt;Then after some cleaning (it still needs a bit more though)&lt;br /&gt;&lt;a href=&quot;https://www.flickr.com/photos/126939770@N02/15096271410&quot; title=&quot;cleaned-hobbed-bolt by Joe Norton, on Flickr&quot;&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3918/15096271410_954e4c4955_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;cleaned-hobbed-bolt&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;as-bad-as-it-gets-resist-the-urge-to-drill&quot;&gt;4. As bad as it gets, resist the urge to drill.&lt;/h2&gt;
-&lt;p&gt;I fell for this. The heat creep had gotten so bad in my case that the filament coming out of the cold end was swollen and warped. It couldn’t be pulled out. I eventually had to drill it out. Although I did an okay job driling it, the real problem with doing this - in the long run - is the &lt;em&gt;contamination risk&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;I fell for this. The heat creep had gotten so bad in my case that the filament coming out of the cold end was swollen and warped. It couldn’t be pulled out. I eventually had to drill it out. Although I did an okay job driling it, the real problem with doing this - in the long run - is the &lt;em&gt;contamination risk&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;I didn’t realize at the time, but what happens when you drill into the extruder assembly, is that you are bound to accidentally nick up some of the structure around the filament you are drilling, and those fragments will end up in the liquid filament pool being pushed out your nozzle. The issue is that the ‘structure’ getting fragmented into your filament is likely aluminum (from the cold end) or PFTE tube (the white tube connecting the ceramic melting chamber, heat sinks, and cold end). &lt;/p&gt;
+&lt;p&gt;I didn’t realize at the time, but what happens when you drill into the extruder assembly, is that you are bound to accidentally nick up some of the structure around the filament you are drilling, and those fragments will end up in the liquid filament pool being pushed out your nozzle. The issue is that the ‘structure’ getting fragmented into your filament is likely aluminum (from the cold end) or PFTE tube (the white tube connecting the ceramic melting chamber, heat sinks, and cold end).&lt;/p&gt;
 
 &lt;p&gt;The problem with those materials are probably obvious to you - they don’t melt like PLA or ABS does! &lt;strong&gt;PFTE can take ~400 degrees to melt!&lt;/strong&gt; So trust me, while in practice it might be the fastest way to unclog your rig - resist the urge to drill, the contamination risk is just too high. Trust me!&lt;/p&gt;
 
 &lt;h2 id=&quot;dont-go-it-alone-if-you-bought-your-3d-printer-and-didnt-make-it-then-you-have-somebody-to-reach-out-to-for-support&quot;&gt;5. Don’t go it alone. If you bought your 3D Printer, and didn’t make it, then you have somebody to reach out to for support&lt;/h2&gt;
-&lt;p&gt;In my case, my extruder problems got so bad that I couldn’t get a single print going. I was stuck. This is when I reached out to the manufacturer of my 3D Printer, and very quickly they worked with me to get replacements and returns done for the nescessary parts (Thanks &lt;a href=&quot;https://www.lulzbot.com/&quot; target=&quot;_blank&quot;&gt;Lulzbot&lt;/a&gt;!).  &lt;/p&gt;
+&lt;p&gt;In my case, my extruder problems got so bad that I couldn’t get a single print going. I was stuck. This is when I reached out to the manufacturer of my 3D Printer, and very quickly they worked with me to get replacements and returns done for the nescessary parts (Thanks &lt;a href=&quot;https://www.lulzbot.com/&quot; target=&quot;_blank&quot;&gt;Lulzbot&lt;/a&gt;!).&lt;/p&gt;
 
 &lt;p&gt;Remember, part of the reason you buy a 3D printer instead of building your own is because you want somebody available to help you troubleshoot your very expensive toy when it breaks down.&lt;/p&gt;
 
@@ -362,17 +362,17 @@ All said and done, here is how the small mobile robot turned out. It’s really 
 &lt;p&gt;The good printers can do PLA, ABS, and all kinds of other space age filaments. They advertise this quite heavily. What they don’t tell you as openly is that actually using PLA is going to run into a few more quirks than ABS would, and in-fact the TAZ4 is not “out of the box” ready to print PLA (maybe a couple prints, but eventually you WILL run into issues unless you do certain upgrades/changes to your rig). In fact, if I were doing it all over again and buying my printer and initial batch of filament, I would just get ABS – it may be less eco-friendly, but it also isn’t going to have the &lt;em&gt;heat creep&lt;/em&gt; issues that you may encounter with PLA. All that said, I currently am printing all PLA - and have learned a few things about it that you may benefit from hearing!&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;What makes PLA such a pain in the butt?&lt;/strong&gt;&lt;br /&gt;
-PLA has a lower melting temperature than ABS, and also has a higher viscosity when it is melted. PLA also holds onto, and conducts, heat more so than ABS. &lt;/p&gt;
+PLA has a lower melting temperature than ABS, and also has a higher viscosity when it is melted. PLA also holds onto, and conducts, heat more so than ABS.&lt;/p&gt;
 
 &lt;p&gt;This all seems like random trivia, but what it means is that PLA is much more prone to 2 major issues:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;1. Filament Pooling / Leaking&lt;/strong&gt; &lt;br /&gt;
-PLA becomes so thin and runny when heated (more so than ABS) that it will seep out of tiny cracks and crevices that ABS won’t. What this means is that if you haven’t sealed your nozzle off with PFTE tape or high-temp thread seal then you can and should expect liquid PLA to flow ‘upwards’ thru the threads of your nozzle during your prints. This is the issue with my Budaschnozzle 2.0, the default extruder and nozzle for the Lulzbot TAZ4. &lt;/p&gt;
+PLA becomes so thin and runny when heated (more so than ABS) that it will seep out of tiny cracks and crevices that ABS won’t. What this means is that if you haven’t sealed your nozzle off with PFTE tape or high-temp thread seal then you can and should expect liquid PLA to flow ‘upwards’ thru the threads of your nozzle during your prints. This is the issue with my Budaschnozzle 2.0, the default extruder and nozzle for the Lulzbot TAZ4.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;Fixing Filament Pooling&lt;/strong&gt;&lt;br /&gt;
-&lt;a href=&quot;https://www.lulzbot.com/support/budaschnozzle-20-pla-solution&quot;&gt;Lulzbot has shared a few solutions to this issue&lt;/a&gt; - all of which involve taking apart your budaschnozzle and either applying PFTE tape or High-Temp Thread Locker.  &lt;/p&gt;
+&lt;a href=&quot;https://www.lulzbot.com/support/budaschnozzle-20-pla-solution&quot;&gt;Lulzbot has shared a few solutions to this issue&lt;/a&gt; - all of which involve taking apart your budaschnozzle and either applying PFTE tape or High-Temp Thread Locker.&lt;/p&gt;
 
 &lt;p&gt;I personally haven’t yet fixed this on my machine. It’s not pretty having filament pooling, but it’s not really having any kind of negative impact on my prints (that I know of).&lt;/p&gt;
 
@@ -388,7 +388,7 @@ Since PLA conducts heat so well what happens is that heat travels up the filamen
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Fixing Heat Creep&lt;/strong&gt;&lt;br /&gt;
-I’m still trying to figure that out. Just when I thought I had a permanent fix to this, then I experienced another extruder clog. It’s a bummer when you find your 3D Printer has been ‘ghost printing’ for the past hour, and you realize you will be spending the next 2 hours taking apart and fiddling with the extruder assembly before you can set up a new print. So I haven’t PLA proofed the 3D Printer just yet, but I will tell you what I have done so far that has helped the heat creep breakdowns become less numerois.  &lt;/p&gt;
+I’m still trying to figure that out. Just when I thought I had a permanent fix to this, then I experienced another extruder clog. It’s a bummer when you find your 3D Printer has been ‘ghost printing’ for the past hour, and you realize you will be spending the next 2 hours taking apart and fiddling with the extruder assembly before you can set up a new print. So I haven’t PLA proofed the 3D Printer just yet, but I will tell you what I have done so far that has helped the heat creep breakdowns become less numerois.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;ol&gt;
@@ -398,7 +398,7 @@ When printing PLA it’s very important not to run at too high a temperature. I 
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;ACTIVELY COOL ABOVE THE HEAT BLOCK&lt;/strong&gt;&lt;br /&gt;
-One issue with the TAZ4 is that the fan comes with a duct that is pointed directly at the nozzle, leaving the area above the heat block completely uncooled. Since we are using PLA, it is extremely important that we not let the heat from the extruder climb up the apparatus and start warping our filament above the melting chamber. What we want to do is focus a bit on the area above the heat block to help prevent the heat creep. &lt;/p&gt;
+One issue with the TAZ4 is that the fan comes with a duct that is pointed directly at the nozzle, leaving the area above the heat block completely uncooled. Since we are using PLA, it is extremely important that we not let the heat from the extruder climb up the apparatus and start warping our filament above the melting chamber. What we want to do is focus a bit on the area above the heat block to help prevent the heat creep.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -408,9 +408,9 @@ One issue with the TAZ4 is that the fan comes with a duct that is pointed direct
 
 &lt;p&gt;I have made one of these myself, it is an easy print and it self-taps with the original screws that come with the TAZ4. It works nicely. Much better at directing air above the heat block, and thus preventing heat creep to some degree.&lt;/p&gt;
 
-&lt;p&gt;Lastly, now that you have your new fan duct you will want to make sure you keep that fan running all the time!  &lt;/p&gt;
+&lt;p&gt;Lastly, now that you have your new fan duct you will want to make sure you keep that fan running all the time!&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;UPDATE (10/26):&lt;/strong&gt; Turns out this fan will probably end up leaving your ‘nozzle tip cooling’ somewhat underpowered. I ended up seeing worse printing performance when it came to bridging. Also, I noticed that the edges on the side opposite the fan were ending up with a worse quality finish. I was starting to think I needed a fan on the other side focused at the nozzle tip but then decided to go another way with it, and have one fan focused on the nozzle while the 2nd fan was focused entirely on the area above the melting chamber and below the ‘cold end’ of the extruder. Scrool to bottom of this post for more on adding a 2nd fan.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UPDATE (10/26):&lt;/strong&gt; Turns out this fan will probably end up leaving your ‘nozzle tip cooling’ somewhat underpowered. I ended up seeing worse printing performance when it came to bridging. Also, I noticed that the edges on the side opposite the fan were ending up with a worse quality finish. I was starting to think I needed a fan on the other side focused at the nozzle tip but then decided to go another way with it, and have one fan focused on the nozzle while the 2nd fan was focused entirely on the area above the melting chamber and below the ‘cold end’ of the extruder. Scrool to bottom of this post for more on adding a 2nd fan.&lt;/p&gt;
 
 &lt;p&gt;That’s it. Hopefully with these tips you can keep heat creep to a minimum and keep that printer running!&lt;/p&gt;
 
